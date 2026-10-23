@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--pdf", type=Path, help="Use an already downloaded source PDF")
 args = parser.parse_args()
 manifest = json.loads((ROOT / "docs/source-identities.json").read_text())
-temporary_root = Path("/tmp")
+temporary_root = Path(tempfile.gettempdir())
 temporary_root.mkdir(parents=True, exist_ok=True)
 with tempfile.TemporaryDirectory(prefix="rajju-source-", dir=temporary_root) as directory:
     temporary = Path(directory)

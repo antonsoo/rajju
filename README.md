@@ -3,7 +3,7 @@
 **A circle too large. A return almost perfect.** Explore Indian cord geometry
 through a working construction, Sanskrit instructions and the printed evidence.
 
-[MIT license](LICENSE) · [Source decisions](THIRD_PARTY.md) · [Mathematical model](docs/model.md)
+[Live workshop](https://antonsoo.github.io/rajju/) · [MIT license](LICENSE) · [Source decisions](THIRD_PARTY.md) · [Mathematical model](docs/model.md)
 
 A circle made by one Śulbasūtra rule is about 1.725% larger than the original
 square. Apply the detailed return rule and the new square almost matches the
@@ -13,16 +13,12 @@ and compare all three areas against their proper references.
 
 ![The cord swung east, with the removed corners and added circular segments](docs/assets/circle-desktop.png)
 
-Publication status: this repository and its reviewed build are local. No remote
-repository, hosted deployment or registry release is claimed. The intended
-Pages address is `https://antonsoo.github.io/rajju/`.
-
 ## Try it locally
 
-From the `showcases` workspace, with Node.js 24 or newer:
+With Node.js 24 or newer:
 
 ```sh
-cd rajju
+git clone https://github.com/antonsoo/rajju.git && cd rajju
 npm ci
 npm run dev
 ```
@@ -102,7 +98,7 @@ account, not a proof stated by the ancient rule.
 Inspect an actual [saved circle reading](examples/circle-reading.html.gz), its
 [15-page PDF](examples/circle-reading.pdf), and the [measurement CSV](examples/circle-measurements.csv).
 The [diagonal CSV](examples/diagonal-measurements.csv) retains the exact fractions.
-These are captured from the local build; no hosted edition is implied.
+These were captured from the reviewed local build. The HTML example is gzip-compressed; extract it before opening. It contains the original downloaded HTML bytes.
 
 ## How it works and how it was checked
 

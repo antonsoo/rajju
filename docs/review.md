@@ -1,4 +1,4 @@
-# Reviewed local edition
+# Initial local review
 
 This review concerns the source checkout, built files, actual local browsers and
 saved artifacts. It makes no claim about a public repository, GitHub Pages,
@@ -150,5 +150,4 @@ Suggested repository description: **Indian cord geometry: a square, an oversized
 Suggested topics: `sulbasutra`, `sanskrit`, `geometry`, `history-of-mathematics`,
 `education`, `typescript`, `offline`.
 
-Publication remains unperformed, as required by the showcase house standards.
-No GitHub repository was created, and no source, tag or built site was pushed.
+This initial local review ended before publication. Its receipts describe local source, build and browser surfaces. Later publication evidence is recorded separately.
