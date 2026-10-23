@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/rajju",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Read Indian cord geometry: a square, an oversized circle, an almost perfect return, and the diagonal 577/408.",
+  "description": "Read Indian cord geometry: circle and return, exact diagonal fractions, and a ground laid out with a marked cord.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -17,7 +17,8 @@
     "sanskrit",
     "history-of-mathematics",
     "baudhayana",
-    "education"
+    "education",
+    "apastamba"
   ],
   "engines": {
     "node": ">=24"
@@ -33,7 +34,9 @@
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "verify:geometry": "node --import tsx scripts/geometry-cases.ts | python3 scripts/geometry-oracle.py",
     "test:browser": "node scripts/browser-review.mjs",
-    "test:offline": "node scripts/offline-review.mjs"
+    "test:offline": "node scripts/offline-review.mjs",
+    "verify:field": "node --import tsx scripts/field-cases.ts | python3 scripts/field-oracle.py",
+    "test:field": "node scripts/field-review.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -68,6 +68,37 @@ for (const [engine, launcher] of [
           standaloneDownload: true,
         });
       }
+      await page.goto(`${base}field.html`);
+      assert.equal(await page.locator("#field-offline").textContent(), "Development preview");
+      assert.equal(
+        await page.evaluate(async () => (await navigator.serviceWorker.getRegistrations()).length),
+        0,
+      );
+      assert.equal(
+        await page.locator(".field-cord").evaluate((e) => getComputedStyle(e).stroke),
+        "rgb(23, 60, 81)",
+      );
+      assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
+      await page.locator("#place-peg").focus();
+      await page.keyboard.press("Enter");
+      assert.match(await page.locator("#ground-result").textContent(), /1 of four/);
+      const fieldPending = page.waitForEvent("download");
+      await page.locator("#field-save").click();
+      const fieldDownload = await fieldPending;
+      const fieldPath = path.join(output, `${engine}-${width}-field.html`);
+      await fieldDownload.saveAs(fieldPath);
+      assert.equal(
+        [...(await readFile(fieldPath, "utf8")).matchAll(/src="data:image\/jpeg/g)].length,
+        4,
+      );
+      result.push({
+        engine,
+        width,
+        lesson: "field",
+        sourcePagesEmbedded: 4,
+        serviceWorkerRegistrations: 0,
+        standaloneDownload: true,
+      });
       assert.deepEqual(errors, []);
       await context.close();
     }

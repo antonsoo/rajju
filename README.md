@@ -5,6 +5,9 @@ through a working construction, Sanskrit instructions and the printed evidence.
 
 [Live workshop](https://antonsoo.github.io/rajju/) · [MIT license](LICENSE) · [Source decisions](THIRD_PARTY.md) · [Mathematical model](docs/model.md)
 
+Also: [**Hold fifteen. Stake twelve.**](https://antonsoo.github.io/rajju/field.html)
+Lay out Āpastamba's ground with a marked cord and keep the four pegs.
+
 A circle made by one Śulbasūtra rule is about 1.725% larger than the original
 square. Apply the detailed return rule and the new square almost matches the
 first. Checking only the endpoints hides what happened in between. Rajju lets
@@ -83,7 +86,7 @@ account, not a proof stated by the ancient rule.
   translations cover circling, both return rules and the numerical diagonal.
 - Eleven selectable word notes explain geometrical references and grammar;
   no Sanskrit prerequisite or reconstructed pronunciation is assumed.
-- Nine complete printed pages from George Thibaut's 1875 _The Śulvasūtras_.
+- Twelve complete printed pages across the rooms from George Thibaut's 1875 _The Śulvasūtras_.
   Enlarge and pan, open the original image, and follow the complete volume link.
   The p. 28 note retains the printed 412/408 discrepancy instead of hiding it.
 - Share a URL that retains the controls, passage and independently selected
@@ -99,6 +102,29 @@ Inspect an actual [saved circle reading](examples/circle-reading.html.gz), its
 [15-page PDF](examples/circle-reading.pdf), and the [measurement CSV](examples/circle-measurements.csv).
 The [diagonal CSV](examples/diagonal-measurements.csv) retains the exact fractions.
 These were captured from the reviewed local build. The HTML example is gzip-compressed; extract it before opening. It contains the original downloaded HTML bytes.
+
+## Hold fifteen. Stake twelve.
+
+[Lay out the ground](https://antonsoo.github.io/rajju/field.html). Fix a 54-unit
+cord to the ends of a 36-unit centre line. Holding at fifteen establishes a
+perpendicular, but the eastern corner belongs at twelve on that same cord.
+1. Place the four source pegs. The ground is 30 units wide at the west,
+   24 at the east, and has an area of 972 square source units.
+2. At each eastern corner, choose **Where I am holding the cord** and replace
+   that peg. The angle remains right, while the ground becomes a rectangle
+   of area 1080. An angle check alone did not preserve the dimensions.
+3. Try holding at twelve. The grip itself moves off the prescribed cross-line.
+   Compare the other three procedures: enlarged 3–4–5, 5–12–13, and the paired
+   8–15–17 / 12–35–37 triangles.
+4. Keep each peg's choices in a shared link, download separate proposed/placed
+   CSV records, and save a complete illustrated reading with printed pp. 9–12.
+   A paper cord template restores the source method at a chosen 3 mm paper
+   unit and includes a 30 mm calibration bar.
+
+The source readings teach the alternative measures, eastward line, full eastern
+width and two marks in Sanskrit, IAST and English. The page note retains a
+direction discrepancy in the original English. The [field model](docs/field-model.md)
+gives the complete source-length table, coordinate derivation and limits.
 
 ## How it works and how it was checked
 
@@ -116,7 +142,9 @@ app's closed-form circular segment calculation.
 ```sh
 npm run check
 npm run verify:geometry
+npm run verify:field
 npm run test:browser -- /tmp/rajju-browser
+npm run test:field -- /tmp/rajju-field
 ```
 
 The browser command serves the existing `dist/` on isolated local origins;
@@ -127,6 +155,7 @@ the actual SVG coordinates and real CSV downloads:
 
 ```sh
 python3 scripts/geometry-oracle.py --rendered < /tmp/rajju-browser/browser.json
+node --import tsx scripts/field-cases.ts | python3 scripts/field-oracle.py /tmp/rajju-field/review.json
 npm run test:offline
 python3 scripts/source-review.py
 ```
@@ -140,6 +169,15 @@ With `npm run dev` running in another terminal, `node scripts/development-review
 checks both lessons at desktop and phone widths in both engines, including
 the actual SVG styling and standalone downloads. It confirms that development
 has no installed service worker.
+
+The field reviewer follows all four procedures, alters and retains pegs,
+captures 80 actual SVG constructions, opens native downloads and navigates both
+rooms after the origin closes. The independent field oracle bisects two distance
+constraints at 60-digit Decimal precision; it checks 544 additional model cases
+without importing the app. To exercise an existing installation's upgrade,
+build the initial public source `fc32d79` in another checkout and run
+`node scripts/field-upgrade.mjs <old-dist-directory>`. This holds and substitutes
+a newly added scan, verifies refusal, then checks recovery and offline use.
 
 The [review](docs/review.md) retains browser, geometry, source, print and clean
 install evidence. Chromium and Firefox were exercised at 1440 and 375 px through

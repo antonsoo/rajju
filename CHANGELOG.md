@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.0 — 2026-10-22
+
+- Āpastamba's ground-layout room: distinguish grip and stake marks, retain four
+  independent peg choices and compare four source procedures.
+- Explore taut intersections and an optional modern ellipse, with equal axis
+  scales, plan magnification and explicit collinear/crossed cases.
+- Four Sanskrit/IAST/English readings, three additional full source pages,
+  and a visible note on the printed direction discrepancy.
+- Proposed/placed peg CSVs, complete illustrated field readings and a calibrated
+  3 mm paper-unit cord template. Both rooms belong to one verified offline edition.
+
 ## 0.1.0 — 2026-10-22
 
 - Square-to-circle cord construction, exact source third, actual lost/gained

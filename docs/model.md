@@ -1,5 +1,7 @@
 # A circle, its return, and a different diagonal
 
+For the separate marked-cord ground layout, see [the field model](field-model.md).
+
 The circle workshop follows the geometric instruction with a true square
 diagonal. The diagonal workshop evaluates a separate rational approximation.
 Substituting the latter into the former would conflate two quite different errors.

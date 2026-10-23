@@ -1,3 +1,4 @@
+import { base64, download, verifiedAsset } from "./assets";
 import { DIAGONAL_STEPS, LIMITATIONS, PASSAGES, SOURCE_NOTES, SOURCE_URL } from "./content";
 import { asText } from "./core/fraction";
 import { circleModel, diagonalModel } from "./core/geometry";
@@ -10,6 +11,7 @@ import {
   stripsDrawing,
 } from "./drawing";
 import { escapeHtml as esc, number, signed } from "./format";
+import { STUDY_CSS } from "./study";
 
 export function measurements(state: State): string[][] {
   const rows = [
@@ -134,45 +136,12 @@ export function csvText(state: State): string {
     .join("\r\n")}\r\n`;
 }
 
-function download(body: Blob, name: string): void {
-  const url = URL.createObjectURL(body);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = name;
-  link.click();
-  setTimeout(() => URL.revokeObjectURL(url), 30000);
-}
-
 export function downloadCsv(state: State): void {
   download(
     new Blob([csvText(state)], { type: "text/csv;charset=utf-8" }),
     `rajju-${state.lesson}-measurements.csv`,
   );
 }
-
-async function verifiedAsset(path: string): Promise<Uint8Array<ArrayBuffer>> {
-  const response = await fetch(`${import.meta.env.BASE_URL}${path}`);
-  if (!response.ok) throw new Error(`Could not load ${path}. Reload online and save again.`);
-  const bytes = new Uint8Array(await response.arrayBuffer());
-  const digest = await crypto.subtle.digest("SHA-256", bytes);
-  const actual = Array.from(new Uint8Array(digest), (b) => b.toString(16).padStart(2, "0")).join(
-    "",
-  );
-  if (actual !== __ASSET_HASHES__[path]) {
-    throw new Error(`The saved edition could not verify ${path}. Reload online and save again.`);
-  }
-  return bytes;
-}
-
-function base64(bytes: Uint8Array): string {
-  let binary = "";
-  for (let i = 0; i < bytes.length; i += 16384)
-    binary += String.fromCharCode(...bytes.subarray(i, i + 16384));
-  return btoa(binary);
-}
-
-const STUDY_CSS = `
-*{box-sizing:border-box}body{font-family:Plex,sans-serif;background:#fbfcf9;color:#173c51;max-width:1000px;margin:auto;padding:35px;line-height:1.65}h1,h2{font-family:Newsreader,serif;font-weight:500;line-height:1.1}h1{font-size:46px}h2{font-size:30px}h3{font-size:18px}a{color:inherit}svg{width:100%;height:auto;display:block}svg text{font-family:Plex,sans-serif;font-size:16px;fill:#173c51}svg .caption{font-size:13px}svg .direction{font-size:12px}svg .axis{stroke:#97b0bf;stroke-width:1;stroke-dasharray:4 7;fill:none}svg .square-outline{stroke:#173c51;stroke-width:2;fill:none}svg .circle-outline{stroke:#226579;stroke-width:2;fill:none}svg .preview-circle{stroke:#226579;stroke-dasharray:4 6;fill:none}svg .diagonal-guide{stroke:#173c51;stroke-width:1.5;stroke-dasharray:5 5;fill:none}svg .active-cord{stroke:#173c51;stroke-width:5;stroke-linecap:round;fill:none}svg .cord-guide{stroke:#6b7d78;stroke-width:2;fill:none}svg .excess-cord{stroke:#a6462c;stroke-width:3;fill:none}svg .division,svg .dimension{stroke:#496c7e;stroke-width:1;fill:none}svg .swing{stroke:#4d7386;stroke-width:1;stroke-dasharray:4 5;fill:none}svg .peg{fill:#173c51;stroke:#d5e3e9;stroke-width:1.5}svg .returned-square{stroke:#226579;stroke-width:2;fill:#22657912}svg .original-reference{stroke:#173c51;stroke-width:2;stroke-dasharray:5 4;fill:none}svg .target-square{stroke:#173c51;stroke-width:2;stroke-dasharray:6 4;fill:#b9cfd930}svg .numerical-square{stroke:#a6462c;stroke-width:2;fill:#a6462c0c}svg .grid-line{stroke:#9cb3bf;stroke-width:.7;fill:none}svg .cut-line{stroke:#a6462c;stroke-width:1.2;fill:none}.plate{background:#d5e3e9;padding:15px;max-width:600px;margin:25px auto}.plate.return{max-width:350px}.ruler{max-width:650px;margin:20px auto}.sanskrit{font-family:Devanagari,serif;font-size:23px;line-height:2}.iast{font-family:Newsreader,serif;font-size:21px}section{margin-top:40px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;vertical-align:top;padding:9px;border-bottom:1px solid #9cb3bf;overflow-wrap:anywhere}th{font-weight:600}td:nth-child(2){font-variant-numeric:tabular-nums}figure{margin:35px 0}figure img{display:block;max-width:100%;height:auto}figcaption{font-size:13px;margin-top:10px}.small{font-size:13px;overflow-wrap:anywhere}pre{white-space:pre-wrap;font-size:11px}.equation{font-size:18px;overflow-wrap:anywhere}@media(max-width:600px){body{padding:20px}h1{font-size:35px}table{font-size:10px}td,th{padding:6px}}@media print{h1,h2,h3{break-after:avoid}p{orphans:3;widows:3}@page{size:A4;margin:16mm}body{padding:0;max-width:none;font-size:10pt}h1{font-size:29pt}h2{font-size:21pt}.plate{max-width:140mm;break-inside:avoid}.ruler{break-inside:avoid}table{font-size:8pt}.source-page{break-before:page;margin:0}.source-page img{max-height:235mm;max-width:100%;object-fit:contain}.source-page h3{margin:0 0 4mm;font-size:12pt}.source-page figcaption{font-size:8pt}.licenses,.download-link{display:none}.reading-passage{break-inside:avoid}}`;
 
 export async function saveStudy(state: State): Promise<void> {
   const assets = [

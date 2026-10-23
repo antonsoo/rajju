@@ -1,0 +1,69 @@
+svg .target-ground {
+  fill: none;
+  stroke: #657f8c;
+  stroke-width: 1.5;
+  stroke-dasharray: 6 5;
+}
+svg .measured-ground {
+  fill: #22657912;
+  stroke: #226579;
+  stroke-width: 2;
+}
+svg .grip-locus {
+  fill: none;
+  stroke: #6f8490;
+  stroke-width: 1;
+  stroke-dasharray: 2 6;
+}
+svg .field-cord {
+  fill: none;
+  stroke: #173c51;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+svg .peg-error {
+  fill: none;
+  stroke: #a6462c;
+  stroke-width: 2;
+  stroke-dasharray: 3 3;
+}
+svg .held-point {
+  fill: #173c51;
+  stroke: #fbfcf9;
+  stroke-width: 1.5;
+}
+svg .proposed-peg {
+  fill: none;
+  stroke: #a6462c;
+  stroke-width: 2.5;
+}
+svg .fixed-peg {
+  fill: #173c51;
+  stroke: #d5e3e9;
+  stroke-width: 1.5;
+}
+svg .auxiliary-peg {
+  fill: #fbfcf9;
+  stroke: #173c51;
+  stroke-width: 2;
+}
+svg .placed-peg {
+  fill: #226579;
+  stroke: #fbfcf9;
+  stroke-width: 1.5;
+}
+svg .cord-mark {
+  fill: #a6462c;
+  stroke: #fbfcf9;
+  stroke-width: 1;
+}
+svg .mark-leader {
+  fill: none;
+  stroke: #a6462c;
+  stroke-width: 0.8;
+}
+svg .mark-label {
+  font-size: 15px;
+  fill: #a6462c;
+}

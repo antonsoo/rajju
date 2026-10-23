@@ -22,6 +22,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("src")),
     ...(await filesIn("public")),
     "index.html",
+    "field.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -37,7 +38,7 @@ export default defineConfig(async ({ command }) => {
     base,
     build: {
       rolldownOptions: {
-        input: "index.html",
+        input: { main: "index.html", field: "field.html" },
       },
     },
     define: {

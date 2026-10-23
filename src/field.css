@@ -1,0 +1,332 @@
+.field-workshop {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(300px, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+.field-board {
+  background: var(--board);
+  border: 1px solid var(--line);
+  padding: 18px;
+  position: sticky;
+  top: 20px;
+}
+.field-board svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#field-plan {
+  overflow: auto;
+  max-height: 550px;
+}
+.field-board .zoom-label {
+  font-size: 12px;
+  margin: 12px 0 0;
+  max-width: 240px;
+}
+.field-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 18px;
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.field-controls {
+  padding: 6px 0 0;
+}
+.field-controls > label:first-child {
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 9px;
+}
+.field-controls select {
+  width: 100%;
+  background: var(--chalk);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 10px 8px;
+  margin-bottom: 24px;
+}
+.field-controls h2 {
+  font:
+    600 15px Plex,
+    sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+.corner-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.corner-buttons button {
+  padding: 9px 6px;
+  font-size: 14px;
+}
+.corner-buttons button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--chalk);
+}
+.recipe-copy {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+}
+.field-controls output {
+  font-weight: 600;
+}
+.field-controls input[type="range"] {
+  display: block;
+  width: 100%;
+  margin: 16px 0;
+  accent-color: var(--rust);
+}
+.field-controls fieldset {
+  border: 0;
+  padding: 0;
+  margin: 20px 0 16px;
+}
+.field-controls legend {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.field-controls fieldset label {
+  display: block;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.field-controls input[type="radio"],
+.field-controls input[type="checkbox"] {
+  accent-color: var(--rust);
+  margin: 0 8px 0 0;
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+.locus-label {
+  display: block;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  color: var(--muted);
+}
+.peg-reading {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.peg-reading h3 {
+  font-size: 15px;
+}
+.peg-reading p {
+  margin-bottom: 12px;
+}
+.peg-reading .small {
+  font-variant-numeric: tabular-nums;
+}
+.peg-reading button {
+  margin: 5px 0 12px;
+}
+.peg-reading #placed-status {
+  min-height: 23px;
+}
+.cord-unbent,
+.ground-section {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 55px;
+  padding: 45px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: center;
+}
+.cord-unbent h2,
+.ground-section h2 {
+  font-size: 32px;
+}
+.cord-unbent p {
+  font-size: 15px;
+}
+.cord-unbent svg {
+  width: 100%;
+  height: auto;
+}
+.table-scroll {
+  overflow: auto;
+}
+.ground-section table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+.ground-section caption {
+  text-align: left;
+  color: var(--muted);
+  margin-bottom: 15px;
+}
+.ground-section td,
+.ground-section th {
+  border-bottom: 1px solid var(--line);
+  padding: 12px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.ground-section td:nth-child(n + 3) {
+  font-variant-numeric: tabular-nums;
+}
+.verdict {
+  font-size: 17px;
+  color: var(--river);
+}
+.field-math {
+  margin: 30px 0;
+  max-width: 900px;
+}
+.field-math summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.field-math p {
+  font-size: 15px;
+}
+.field-actions {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.field-actions .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.field-actions #field-file-status {
+  margin-top: 15px;
+  min-height: 23px;
+}
+.field-actions input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  background: var(--chalk);
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.field-phrase {
+  padding: 0 0 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.field-phrase p {
+  margin-bottom: 9px;
+}
+.masthead nav a[aria-current="page"] {
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+}
+@media (min-width: 1500px) {
+  .field-board {
+    padding: 24px;
+  }
+}
+@media (max-width: 1000px) {
+  .field-workshop {
+    grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr);
+    gap: 22px;
+  }
+  .field-board {
+    padding: 12px;
+  }
+  .cord-unbent,
+  .ground-section {
+    gap: 28px;
+    grid-template-columns: 1fr 1.4fr;
+  }
+}
+@media (max-width: 760px) {
+  #field-plan {
+    max-height: 350px;
+  }
+  .field-workshop {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .field-board {
+    position: relative;
+    top: auto;
+    width: 100%;
+    padding: 12px;
+  }
+  .field-controls {
+    width: 100%;
+  }
+  .field-intro {
+    gap: 10px;
+  }
+  .cord-unbent,
+  .ground-section {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 32px 0;
+  }
+  .field-key {
+    font-size: 11px;
+    gap: 5px 10px;
+  }
+  .field-controls fieldset label {
+    padding: 7px 0;
+  }
+  .field-phrase .sanskrit {
+    font-size: 22px;
+  }
+  .field-math {
+    margin: 25px 0;
+  }
+  .field-actions .actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .ground-section td,
+  .ground-section th {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .field-board .board-caption {
+    font-size: 10px;
+  }
+  .masthead nav {
+    flex-wrap: wrap;
+  }
+}
+@media print {
+  .field-workshop {
+    display: block;
+  }
+  .field-board {
+    position: static;
+    max-width: 150mm;
+    margin: auto;
+  }
+  .field-controls,
+  .field-actions,
+  .field-math {
+    display: none;
+  }
+  .cord-unbent,
+  .ground-section {
+    display: block;
+  }
+  .field-board,
+  .cord-unbent {
+    break-inside: avoid;
+  }
+}
