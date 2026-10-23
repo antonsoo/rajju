@@ -1,0 +1,50 @@
+{
+  "name": "@antonsoloviev/rajju",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read Indian cord geometry: a square, an oversized circle, an almost perfect return, and the diagonal 577/408.",
+  "type": "module",
+  "author": "Anton Soloviev <anton@praviel.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonsoo/rajju.git"
+  },
+  "homepage": "https://antonsoo.github.io/rajju/",
+  "keywords": [
+    "sulbasutra",
+    "geometry",
+    "sanskrit",
+    "history-of-mathematics",
+    "baudhayana",
+    "education"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4392 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4392 --strictPort",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build",
+    "verify:geometry": "node --import tsx scripts/geometry-cases.ts | python3 scripts/geometry-oracle.py",
+    "test:browser": "node scripts/browser-review.mjs",
+    "test:offline": "node scripts/offline-review.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@biomejs/biome": "2.6.2",
+    "@types/node": "24.19.2",
+    "playwright": "1.63.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
