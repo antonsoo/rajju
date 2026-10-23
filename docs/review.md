@@ -50,6 +50,16 @@ The initial environment used Node 26.7.0, Python 3.12, Playwright 1.63.0,
 Chromium 153.0.8010.12 and Firefox 155.0 on WSL2 Linux. The source rendering
 uses the Poppler version named in the source identity manifest.
 
+A fresh local Git clone then installed with Node **24.22.0** and npm **11.19.1**.
+`npm ci`, the full check, independent geometry check, both browser engines,
+all four production journeys, all four source-delay/substitution scenarios and
+eight development lesson/width journeys completed successfully. All **22** built
+files match the reviewed original build byte for byte, including the worker.
+The final static build is **5,251,026 bytes**. [clean-review.json](clean-review.json)
+records the application source commit and log identities;
+[development-review.json](development-review.json) records the actual documented
+development command's rendered drawings, keyboard controls and native downloads.
+
 The independent checker imports no application code. It transcribes the source
 fractions and integrates each protruding region in polar coordinates with
 Simpson's rule; the app uses a circular-segment closed form. For the browser
@@ -82,6 +92,8 @@ The review found and fixed a phone overflow in the exported edition identifier.
 The source third also remains distinct from a custom 333/1000; only the former
 uses exactly one third. The phone layout puts construction steps and the plan
 ahead of optional scale and comparison controls.
+At the two radius limits, coincident points share the labels `R = E` or `R = H`.
+This fixes the overlapping endpoint letters found in the final phone inspection.
 
 ## Slow and incorrect source responses
 
@@ -122,6 +134,7 @@ hosted publication link; the document's contents work independently of it.
 - [Circle, desktop](assets/circle-desktop.png) and [phone plan](assets/circle-phone.png)
 - [Diagonal, desktop](assets/diagonal-desktop.png) and [phone plan](assets/diagonal-phone.png)
 - [Reading, desktop](assets/reading-desktop.png) and [phone](assets/reading-phone.png)
+- [Circumscribed endpoint, phone](assets/circle-endpoint-phone.png)
 
 The blue drawing ground and the cut/gained hatching make the comparison legible
 without pretending to reconstruct an altar's appearance. The two near-identical

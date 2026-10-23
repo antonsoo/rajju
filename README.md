@@ -140,6 +140,11 @@ PDF if `--pdf <path>` is omitted. Renderer identities are recorded. The offline
 review holds a page for nine seconds, substitutes a different valid JPEG,
 checks pending/refusal behavior, then restores the source and verifies recovery.
 
+With `npm run dev` running in another terminal, `node scripts/development-review.mjs`
+checks both lessons at desktop and phone widths in both engines, including
+the actual SVG styling and standalone downloads. It confirms that development
+has no installed service worker.
+
 The [review](docs/review.md) retains browser, geometry, source, print and clean
 install evidence. Chromium and Firefox were exercised at 1440 and 375 px through
 keyboard controls, source zoom and pan, browser history, invalid links, downloads,

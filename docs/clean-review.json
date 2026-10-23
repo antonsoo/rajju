@@ -1,0 +1,25 @@
+{
+  "source_commit": "2302af6e82afe90188c46e18e262f648c0950a2e",
+  "node": "24.22.0",
+  "npm": "11.19.1",
+  "fresh_local_git_clone": true,
+  "npm_ci_exit": 0,
+  "npm_run_check_exit": 0,
+  "production_browser_journeys": 4,
+  "actual_constructions": 44,
+  "development_journeys": 8,
+  "offline_source_scenarios": 4,
+  "clean_build_files": 22,
+  "byte_identical_to_reviewed_original_build": true,
+  "commands": [
+    "npm ci",
+    "npm run check",
+    "npm run verify:geometry",
+    "npm run dev",
+    "node scripts/development-review.mjs",
+    "npm run test:browser",
+    "npm run test:offline"
+  ],
+  "install_log_sha256": "c4245a1a8db17b0ca8a5c21d01601a349db5685df855fbbdfaeea3c0187bcf69",
+  "final_run_log_sha256": "972e34bb9a2cc4e0c496cf35151c8820c7072172e521ebe9e354d70b7aa8bd84"
+}
