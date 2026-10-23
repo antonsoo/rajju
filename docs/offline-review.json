@@ -1,0 +1,58 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "heldMilliseconds": 9000,
+    "pendingStatus": "Downloading reading & sources for offline use…",
+    "prematureDownloads": 0,
+    "substitutedPageRejected": false,
+    "recoveredReadingDownloads": 1,
+    "inspected": {
+      "type": "RAJJU_EDITION",
+      "edition": "1603072da5628220cd15a11096d1c77370f46fa2223cb984c9841f6b2c8d0b9a",
+      "complete": true
+    }
+  },
+  {
+    "engine": "chromium",
+    "scenario": "substituted",
+    "heldMilliseconds": 0,
+    "pendingStatus": "Offline download unavailable; reading still works online",
+    "prematureDownloads": 0,
+    "substitutedPageRejected": true,
+    "recoveredReadingDownloads": 1,
+    "inspected": {
+      "type": "RAJJU_EDITION",
+      "edition": "1603072da5628220cd15a11096d1c77370f46fa2223cb984c9841f6b2c8d0b9a",
+      "complete": true
+    }
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "heldMilliseconds": 9000,
+    "pendingStatus": "Downloading reading & sources for offline use…",
+    "prematureDownloads": 0,
+    "substitutedPageRejected": false,
+    "recoveredReadingDownloads": 1,
+    "inspected": {
+      "type": "RAJJU_EDITION",
+      "edition": "1603072da5628220cd15a11096d1c77370f46fa2223cb984c9841f6b2c8d0b9a",
+      "complete": true
+    }
+  },
+  {
+    "engine": "firefox",
+    "scenario": "substituted",
+    "heldMilliseconds": 0,
+    "pendingStatus": "Offline download unavailable; reading still works online",
+    "prematureDownloads": 0,
+    "substitutedPageRejected": true,
+    "recoveredReadingDownloads": 1,
+    "inspected": {
+      "type": "RAJJU_EDITION",
+      "edition": "1603072da5628220cd15a11096d1c77370f46fa2223cb984c9841f6b2c8d0b9a",
+      "complete": true
+    }
+  }
+]

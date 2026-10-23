@@ -1,0 +1,31 @@
+{
+  "node": "26.7.0",
+  "build_command": "npm run build",
+  "output": "dist/",
+  "publication": "local only; no hosted or registry claim",
+  "files": {
+    "assets/index-BOp0YcY_.js": "cdcebc2be3060700cce41cf18333bf70422b5c278d4dfb0a16f7fa7cf597a51f",
+    "assets/index-v_PlcGGw.css": "f4e362b3425533b9b632dd1a5593c80b09cc0215db75a14d4e708993762e267c",
+    "favicon.svg": "2aa3aa90a62b6d553ce8bcb26e3f632371d601cb405cf494981498b70bddac4a",
+    "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+    "fonts/IBMPlexSans-SemiBold.woff2": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+    "fonts/Newsreader.ttf": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+    "fonts/NotoSerifDevanagari.ttf": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
+    "fonts/newsreader-OFL.txt": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+    "fonts/notoserifdevanagari-OFL.txt": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+    "index.html": "463eed5e43bc9f51a9e042192e05d07aa2d31b12fd125297273da037adf2875c",
+    "notices.html": "e05f8d99c69027f2df401e9df2ba2891774315c37328618978dc412a6dbf92ef",
+    "sources/thibaut-06.jpg": "7dd20632fdfac5a8a98f5c2e87df2ac1687775a1b9bfa427404ba9e78007a506",
+    "sources/thibaut-07.jpg": "147dd4ebf4e35467fa3cf63f16bed14415e13ae10fec9dd6812b4a219f84044c",
+    "sources/thibaut-12.jpg": "cf75d54237056f9e25f6f8983e0f94e931556f7b9f0f53fb7179c611b6cdeeb5",
+    "sources/thibaut-13.jpg": "0780a48807054164e7c992285d39cfbe311e379f1eec9cc6c047d2594c25ae0b",
+    "sources/thibaut-14.jpg": "ee14e9696ef6d4aa5607e75843b4a818b828d47dae5ad3eaffabfd1dab66fb12",
+    "sources/thibaut-15.jpg": "a417eb6e5e1adfa8265e2c255a66edd46bed89c649d295b577c3c2c4445bb1c7",
+    "sources/thibaut-26.jpg": "f267cedf79a5a9c6a5b978fadb91d9fa3891a50bd4498229f9f32603b242e658",
+    "sources/thibaut-27.jpg": "c417fa26239a85e5f15f203e0b38e29841ad1c05a652ffb28784c6fe27bad2f4",
+    "sources/thibaut-28.jpg": "354b026f201660149ecded9df146abe755fb6658540fd1bded3ff55403c8c6c1",
+    "sw.js": "fef0ad1b8ca15ed2b4eb704b75bd5a3a56f5f2025774c66e87f11cbc4b4fe02a"
+  },
+  "bytes": 5250888
+}

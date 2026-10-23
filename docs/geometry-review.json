@@ -1,0 +1,6 @@
+{
+  "circle_cases": 120,
+  "diagonal_cases": 16,
+  "area_oracle": "Simpson integration in polar coordinates",
+  "arithmetic": "independent rational transcription"
+}
