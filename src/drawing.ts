@@ -17,10 +17,12 @@ export function circleDrawing(m: CircleModel, step: number, prefix = "plan"): st
   const east = cx + half;
   const end = cx + diagonal;
   const kept = cx + r;
+  const atEdge = m.kept === 0 && step >= 2;
+  const atEnd = m.kept === 1 && step >= 2;
   const circleClass = step < 3 ? "preview-circle" : "circle-outline";
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 580" role="img" aria-labelledby="${prefix}-title ${prefix}-desc" data-drawing="circle" data-scale="${scale}" data-side-mm="${m.side}">
     <title id="${prefix}-title">The half-diagonal cord swung east, with ${number(m.kept * 100, 6)} percent of its excess retained</title>
-    <desc id="${prefix}-desc">Both axes have the same scale. The square side is ${m.side} millimetres. The circle radius is ${number(m.radius, 9)} millimetres. Rust hatching marks corners removed; blue hatching marks area added outside the square. The half-diagonal extends beyond the eastern edge.</desc>
+    <desc id="${prefix}-desc">Both axes have the same scale. The square side is ${m.side} millimetres. The circle radius is ${number(m.radius, 9)} millimetres. C is the centre, A the corner, E the east edge, H the end of the full half-diagonal cord, and R the retained radius end. Rust hatching marks corners removed; blue hatching marks area added outside the square.</desc>
     <defs>
       <pattern id="${prefix}-lost" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><path d="M0 0v7" stroke="#a6462c" stroke-width="2"/></pattern>
       <pattern id="${prefix}-gained" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-40)"><path d="M0 0v7" stroke="#226579" stroke-width="2"/></pattern>
@@ -34,9 +36,9 @@ export function circleDrawing(m: CircleModel, step: number, prefix = "plan"): st
     <circle cx="${cx}" cy="${cy}" r="${r}" class="${circleClass}" data-shape="constructed-circle"/>
     <path d="M${cx},${cy}L${east},${cy - half}" class="diagonal-guide"/>
     ${step >= 1 ? `<path d="M${east},${cy - half}A${diagonal},${diagonal} 0 0 1 ${end},${cy}" class="swing"/><path d="M${cx},${cy}H${end}" class="cord-guide"/><path d="M${east},${cy}H${end}" class="excess-cord"/>` : `<path d="M${cx},${cy}L${east},${cy - half}" class="active-cord"/>`}
-    ${step >= 2 ? `<path d="M${cx},${cy}H${kept}" class="active-cord"/>${[1, 2].map((n) => `<path d="M${east + ((end - east) * n) / 3},${cy - 7}v14" class="division"/>`).join("")}${dot(kept, cy, "R", 0, 36)}` : ""}
+    ${step >= 2 ? `<path d="M${cx},${cy}H${kept}" class="active-cord"/>${[1, 2].map((n) => `<path d="M${east + ((end - east) * n) / 3},${cy - 7}v14" class="division"/>`).join("")}${dot(kept, cy, atEnd ? "R = H" : atEdge ? "R = E" : "R", 0, 48)}` : ""}
     ${dot(cx, cy, "C", -15, 28)}${dot(east, cy - half, "A", 14, -12)}
-    ${step >= 1 ? `${dot(east, cy, "E", 0, -21)}${dot(end, cy, "H", 12, 24)}` : ""}
+    ${step >= 1 ? `${atEdge ? "" : dot(east, cy, "E", 0, -21)}${atEnd ? "" : dot(end, cy, "H", 12, 24)}` : ""}
     ${dimension(cx - half, cx + half, 485, `${number(m.side)} mm · starting side`)}
     <text x="330" y="554" text-anchor="middle" class="caption">Equal horizontal and vertical scales · modern plan</text>
   </svg>`;

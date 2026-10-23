@@ -276,9 +276,14 @@ for (const [engine, launcher] of [
         await page.locator('input[value="custom"]').check();
         await page.locator("#kept").focus();
         await page.keyboard.press("Home");
+        assert.match(await page.locator("#main-drawing").textContent(), /R = E/);
         await captureConstruction(page, engine, width, "inscribed");
         await page.locator("#kept").focus();
         await page.keyboard.press("End");
+        assert.match(await page.locator("#main-drawing").textContent(), /R = H/);
+        await page
+          .locator("#main-drawing")
+          .screenshot({ path: path.join(output, `${engine}-${width}-endpoint.png`) });
         await captureConstruction(page, engine, width, "circumscribed");
         await page.locator("#kept").fill("333");
         await captureConstruction(page, engine, width, "custom-third");
