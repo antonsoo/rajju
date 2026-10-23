@@ -40,3 +40,13 @@ boundaries, clean installation, build, print and offline integrity experiments.
 The public repository state is retained in
 [repository.json](publication-initial/repository.json). CI configuration is
 present; this record does not claim a hosted CI execution.
+
+## Ground-layout edition
+
+The 0.2.0 ground room was introduced in `12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e`; current application source is `3b2c66b`, including paper-label spacing.
+All 29 canonical production files match its reviewed build, including `field.html`
+and the new source pages. The [field review](field-review.md) retains the hosted
+80-construction browser journeys, independent coordinate checks and initial-edition
+upgrade evidence. The field examples were downloaded from the canonical public
+site, and their embedded online links refer to that site. Documentation-only
+commits after this application source do not alter the generated edition.

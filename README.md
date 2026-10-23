@@ -101,7 +101,7 @@ account, not a proof stated by the ancient rule.
 Inspect an actual [saved circle reading](examples/circle-reading.html.gz), its
 [15-page PDF](examples/circle-reading.pdf), and the [measurement CSV](examples/circle-measurements.csv).
 The [diagonal CSV](examples/diagonal-measurements.csv) retains the exact fractions.
-These were captured from the reviewed local build. The HTML example is gzip-compressed; extract it before opening. It contains the original downloaded HTML bytes.
+These were captured from the verified public workshop. The HTML example is gzip-compressed; extract it before opening. It contains the original downloaded HTML bytes.
 
 ## Hold fifteen. Stake twelve.
 
@@ -125,6 +125,11 @@ The source readings teach the alternative measures, eastward line, full eastern
 width and two marks in Sanskrit, IAST and English. The page note retains a
 direction discrepancy in the original English. The [field model](docs/field-model.md)
 gives the complete source-length table, coordinate derivation and limits.
+
+Inspect the actual [illustrated field reading](examples/field-reading.html.gz)
+(extract before opening), [eight-page A4 PDF](examples/field-reading.pdf),
+[retained peg CSV](examples/field-pegs.csv) and [paper cord template](examples/paper-cord.svg).
+The [field review](docs/field-review.md) records the source, browser and publication evidence.
 
 ## How it works and how it was checked
 

@@ -21,3 +21,11 @@ needs no animation fallback: the construction advances only on explicit input.
 The blue drawing ground was chosen over the cream and terracotta treatment
 already common across these ancient-learning projects. No repeating card grid.
 A short opening leads directly into the experiment; source detail follows it.
+
+The field room leads with the eastern operation, where the grip and stake
+actually differ. A dark grip dot and oxide stake ring distinguish the two
+jobs; placed pegs use the river colour. A proportional unbent cord repeats
+the mark distinction. Plan zoom and keyboard panning retain legibility on
+small screens. The ground table keeps each corner independently, and no area
+appears until all four pegs exist. Source evidence and language follow the
+workshop rather than interrupting placement.

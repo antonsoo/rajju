@@ -1,0 +1,6 @@
+{
+  "model_cases": 544,
+  "rendered_cases": 80,
+  "maximum_coordinate_error_source_units": "8.534498327207282582451860565408112175159714678E-14",
+  "method": "60-digit Decimal bisection of two distance constraints; independent source recipe table; both visible cord segment lengths checked"
+}

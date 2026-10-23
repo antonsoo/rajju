@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 180000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/rajju/",
+  "state": "verified",
+  "attempts": 1,
+  "startedAtUtc": "2026-10-23T01:11:28.942Z",
+  "checkedAtUtc": "2026-10-23T01:11:31.322Z",
+  "buildManifestSha256": "aa58c7eed9a325d4301cbac79b601a91cd6561d113b1681930999e16ba661e31",
+  "expectedFileCount": 29,
+  "checkedFileCount": 29,
+  "verifiedFileCount": 29,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 995,
+    "sha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+    "url": "https://antonsoo.github.io/rajju/",
+    "httpStatus": 200,
+    "observedBytes": 995,
+    "observedSha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 995,
+    "sha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+    "url": "https://antonsoo.github.io/rajju/",
+    "httpStatus": 200,
+    "observedBytes": 995,
+    "observedSha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/field-BsZ3UmjU.js",
+      "bytes": 38022,
+      "sha256": "70411f5f7a5a75dc17be43f7ada4d1c13291d47e05306c25c99f96af3628d22d",
+      "url": "https://antonsoo.github.io/rajju/assets/field-BsZ3UmjU.js",
+      "httpStatus": 200,
+      "observedBytes": 38022,
+      "observedSha256": "70411f5f7a5a75dc17be43f7ada4d1c13291d47e05306c25c99f96af3628d22d",
+      "state": "verified"
+    },
+    {
+      "path": "assets/field-D1F567u8.css",
+      "bytes": 5515,
+      "sha256": "f174c6b2a79add6e4b83349aaa598789f139320cf1b9e94ef6dd6c651424a29e",
+      "url": "https://antonsoo.github.io/rajju/assets/field-D1F567u8.css",
+      "httpStatus": 200,
+      "observedBytes": 5515,
+      "observedSha256": "f174c6b2a79add6e4b83349aaa598789f139320cf1b9e94ef6dd6c651424a29e",
+      "state": "verified"
+    },
+    {
+      "path": "assets/main-B7aR_RR4.js",
+      "bytes": 51269,
+      "sha256": "3f7ccaca5e99bf356ddb4efe21e479681500876fb55a247db5630a6c0a8ea6f7",
+      "url": "https://antonsoo.github.io/rajju/assets/main-B7aR_RR4.js",
+      "httpStatus": 200,
+      "observedBytes": 51269,
+      "observedSha256": "3f7ccaca5e99bf356ddb4efe21e479681500876fb55a247db5630a6c0a8ea6f7",
+      "state": "verified"
+    },
+    {
+      "path": "assets/style-Cnxd9Ryg.js",
+      "bytes": 8537,
+      "sha256": "d9d322dee7d8c81942dff7ba9b016400e210603cdd0f89d56d12b33504130f1a",
+      "url": "https://antonsoo.github.io/rajju/assets/style-Cnxd9Ryg.js",
+      "httpStatus": 200,
+      "observedBytes": 8537,
+      "observedSha256": "d9d322dee7d8c81942dff7ba9b016400e210603cdd0f89d56d12b33504130f1a",
+      "state": "verified"
+    },
+    {
+      "path": "assets/style-v_PlcGGw.css",
+      "bytes": 17387,
+      "sha256": "f4e362b3425533b9b632dd1a5593c80b09cc0215db75a14d4e708993762e267c",
+      "url": "https://antonsoo.github.io/rajju/assets/style-v_PlcGGw.css",
+      "httpStatus": 200,
+      "observedBytes": 17387,
+      "observedSha256": "f4e362b3425533b9b632dd1a5593c80b09cc0215db75a14d4e708993762e267c",
+      "state": "verified"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 376,
+      "sha256": "2aa3aa90a62b6d553ce8bcb26e3f632371d601cb405cf494981498b70bddac4a",
+      "url": "https://antonsoo.github.io/rajju/favicon.svg",
+      "httpStatus": 200,
+      "observedBytes": 376,
+      "observedSha256": "2aa3aa90a62b6d553ce8bcb26e3f632371d601cb405cf494981498b70bddac4a",
+      "state": "verified"
+    },
+    {
+      "path": "field.html",
+      "bytes": 1078,
+      "sha256": "f9ca5aa989782923d5454752c1d32488723c9a8b2da3163a755e55c47544b2ac",
+      "url": "https://antonsoo.github.io/rajju/field.html",
+      "httpStatus": 200,
+      "observedBytes": 1078,
+      "observedSha256": "f9ca5aa989782923d5454752c1d32488723c9a8b2da3163a755e55c47544b2ac",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/rajju/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/rajju/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/rajju/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/Newsreader.ttf",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "url": "https://antonsoo.github.io/rajju/fonts/Newsreader.ttf",
+      "httpStatus": 200,
+      "observedBytes": 451664,
+      "observedSha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerifDevanagari.ttf",
+      "bytes": 757692,
+      "sha256": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
+      "url": "https://antonsoo.github.io/rajju/fonts/NotoSerifDevanagari.ttf",
+      "httpStatus": 200,
+      "observedBytes": 757692,
+      "observedSha256": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "url": "https://antonsoo.github.io/rajju/fonts/newsreader-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4394,
+      "observedSha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/notoserifdevanagari-OFL.txt",
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "url": "https://antonsoo.github.io/rajju/fonts/notoserifdevanagari-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4386,
+      "observedSha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 995,
+      "sha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+      "url": "https://antonsoo.github.io/rajju/index.html",
+      "httpStatus": 200,
+      "observedBytes": 995,
+      "observedSha256": "9ec7403b655fb37db4ff31759248f8c28eeac62452a38b3021ac30cddcf4658c",
+      "state": "verified"
+    },
+    {
+      "path": "notices.html",
+      "bytes": 2421,
+      "sha256": "cdb1a716172df5883323fe89998151f128313c9f50bcf2f72736c08cbe5ea556",
+      "url": "https://antonsoo.github.io/rajju/notices.html",
+      "httpStatus": 200,
+      "observedBytes": 2421,
+      "observedSha256": "cdb1a716172df5883323fe89998151f128313c9f50bcf2f72736c08cbe5ea556",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-06.jpg",
+      "bytes": 473113,
+      "sha256": "7dd20632fdfac5a8a98f5c2e87df2ac1687775a1b9bfa427404ba9e78007a506",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-06.jpg",
+      "httpStatus": 200,
+      "observedBytes": 473113,
+      "observedSha256": "7dd20632fdfac5a8a98f5c2e87df2ac1687775a1b9bfa427404ba9e78007a506",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-07.jpg",
+      "bytes": 388563,
+      "sha256": "147dd4ebf4e35467fa3cf63f16bed14415e13ae10fec9dd6812b4a219f84044c",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-07.jpg",
+      "httpStatus": 200,
+      "observedBytes": 388563,
+      "observedSha256": "147dd4ebf4e35467fa3cf63f16bed14415e13ae10fec9dd6812b4a219f84044c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-09.jpg",
+      "bytes": 452242,
+      "sha256": "6ed2c121b4691cac85a14e5bd9b7e84c6ce8b4e3cd982e86f59d2fe88f9464f6",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-09.jpg",
+      "httpStatus": 200,
+      "observedBytes": 452242,
+      "observedSha256": "6ed2c121b4691cac85a14e5bd9b7e84c6ce8b4e3cd982e86f59d2fe88f9464f6",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-10.jpg",
+      "bytes": 429103,
+      "sha256": "3d60fc2cc22196bce387cbdbd862be41de644d1af29177bef20e7c748475a920",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-10.jpg",
+      "httpStatus": 200,
+      "observedBytes": 429103,
+      "observedSha256": "3d60fc2cc22196bce387cbdbd862be41de644d1af29177bef20e7c748475a920",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-11.jpg",
+      "bytes": 363775,
+      "sha256": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-11.jpg",
+      "httpStatus": 200,
+      "observedBytes": 363775,
+      "observedSha256": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-12.jpg",
+      "bytes": 454587,
+      "sha256": "cf75d54237056f9e25f6f8983e0f94e931556f7b9f0f53fb7179c611b6cdeeb5",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-12.jpg",
+      "httpStatus": 200,
+      "observedBytes": 454587,
+      "observedSha256": "cf75d54237056f9e25f6f8983e0f94e931556f7b9f0f53fb7179c611b6cdeeb5",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-13.jpg",
+      "bytes": 435085,
+      "sha256": "0780a48807054164e7c992285d39cfbe311e379f1eec9cc6c047d2594c25ae0b",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-13.jpg",
+      "httpStatus": 200,
+      "observedBytes": 435085,
+      "observedSha256": "0780a48807054164e7c992285d39cfbe311e379f1eec9cc6c047d2594c25ae0b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-14.jpg",
+      "bytes": 405836,
+      "sha256": "ee14e9696ef6d4aa5607e75843b4a818b828d47dae5ad3eaffabfd1dab66fb12",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-14.jpg",
+      "httpStatus": 200,
+      "observedBytes": 405836,
+      "observedSha256": "ee14e9696ef6d4aa5607e75843b4a818b828d47dae5ad3eaffabfd1dab66fb12",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-15.jpg",
+      "bytes": 432026,
+      "sha256": "a417eb6e5e1adfa8265e2c255a66edd46bed89c649d295b577c3c2c4445bb1c7",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-15.jpg",
+      "httpStatus": 200,
+      "observedBytes": 432026,
+      "observedSha256": "a417eb6e5e1adfa8265e2c255a66edd46bed89c649d295b577c3c2c4445bb1c7",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-26.jpg",
+      "bytes": 435301,
+      "sha256": "f267cedf79a5a9c6a5b978fadb91d9fa3891a50bd4498229f9f32603b242e658",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-26.jpg",
+      "httpStatus": 200,
+      "observedBytes": 435301,
+      "observedSha256": "f267cedf79a5a9c6a5b978fadb91d9fa3891a50bd4498229f9f32603b242e658",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-27.jpg",
+      "bytes": 403100,
+      "sha256": "c417fa26239a85e5f15f203e0b38e29841ad1c05a652ffb28784c6fe27bad2f4",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-27.jpg",
+      "httpStatus": 200,
+      "observedBytes": 403100,
+      "observedSha256": "c417fa26239a85e5f15f203e0b38e29841ad1c05a652ffb28784c6fe27bad2f4",
+      "state": "verified"
+    },
+    {
+      "path": "sources/thibaut-28.jpg",
+      "bytes": 385711,
+      "sha256": "354b026f201660149ecded9df146abe755fb6658540fd1bded3ff55403c8c6c1",
+      "url": "https://antonsoo.github.io/rajju/sources/thibaut-28.jpg",
+      "httpStatus": 200,
+      "observedBytes": 385711,
+      "observedSha256": "354b026f201660149ecded9df146abe755fb6658540fd1bded3ff55403c8c6c1",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 5631,
+      "sha256": "0c25a993a664942831764f32837865b054882b24971ef3e537c103b81c0233d9",
+      "url": "https://antonsoo.github.io/rajju/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 5631,
+      "observedSha256": "0c25a993a664942831764f32837865b054882b24971ef3e537c103b81c0233d9",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

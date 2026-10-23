@@ -1,0 +1,1943 @@
+{
+  "base": "isolated build origins",
+  "constructions": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "one-wn",
+      "search": "?method=one&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "one",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "one-ws",
+      "search": "?method=one&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "one-en",
+      "search": "?method=one&corner=en&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 15
+      },
+      "cordPixels": [520, 300, 520, 150, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "one-es",
+      "search": "?method=one&corner=es&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "es",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -15
+      },
+      "cordPixels": [520, 300, 520, 450, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "345-wn",
+      "search": "?method=345&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "345",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "345-ws",
+      "search": "?method=345&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "345-en",
+      "search": "?method=345&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "345-es",
+      "search": "?method=345&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark%3Ben%2C345%2C1200%2Cmark&page=9",
+      "method": "345",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "51213-wn",
+      "search": "?method=51213&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "51213",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "51213-ws",
+      "search": "?method=51213&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "51213-en",
+      "search": "?method=51213&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "51213-es",
+      "search": "?method=51213&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark%3Ben%2C51213%2C1200%2Cmark&page=9",
+      "method": "51213",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "81517-wn",
+      "search": "?method=81517&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "81517",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "81517-ws",
+      "search": "?method=81517&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "81517-en",
+      "search": "?method=81517&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "81517-es",
+      "search": "?method=81517&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark&page=9",
+      "method": "81517",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "hold-twelve",
+      "search": "?method=one&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark%3Bes%2C81517%2C1200%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 40.5,
+        "y": 11.124297730643496
+      },
+      "held": {
+        "x": 40.5,
+        "y": 11.124297730643494
+      },
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
+      "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "retained-ground-new-proposal",
+      "search": "?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 13,
+      "stake": "grip",
+      "peg": {
+        "x": 39,
+        "y": 12.649110640673516
+      },
+      "held": {
+        "x": 39,
+        "y": 12.649110640673518
+      },
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "collinear-900",
+      "search": "?method=one&corner=en&grip=900&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 9,
+      "stake": "grip",
+      "peg": {
+        "x": 45,
+        "y": 0
+      },
+      "held": {
+        "x": 45,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 610, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "collinear-4500",
+      "search": "?method=one&corner=en&grip=4500&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 45,
+      "stake": "grip",
+      "peg": {
+        "x": -9,
+        "y": 0
+      },
+      "held": {
+        "x": -9,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 70, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "one-wn",
+      "search": "?method=one&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "one",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "one-ws",
+      "search": "?method=one&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "one-en",
+      "search": "?method=one&corner=en&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 15
+      },
+      "cordPixels": [520, 300, 520, 150, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "one-es",
+      "search": "?method=one&corner=es&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "es",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -15
+      },
+      "cordPixels": [520, 300, 520, 450, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "345-wn",
+      "search": "?method=345&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "345",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "345-ws",
+      "search": "?method=345&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "345-en",
+      "search": "?method=345&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "345-es",
+      "search": "?method=345&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark%3Ben%2C345%2C1200%2Cmark&page=9",
+      "method": "345",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "51213-wn",
+      "search": "?method=51213&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "51213",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "51213-ws",
+      "search": "?method=51213&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "51213-en",
+      "search": "?method=51213&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "51213-es",
+      "search": "?method=51213&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark%3Ben%2C51213%2C1200%2Cmark&page=9",
+      "method": "51213",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "81517-wn",
+      "search": "?method=81517&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "81517",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "81517-ws",
+      "search": "?method=81517&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "81517-en",
+      "search": "?method=81517&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "81517-es",
+      "search": "?method=81517&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark&page=9",
+      "method": "81517",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "hold-twelve",
+      "search": "?method=one&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark%3Bes%2C81517%2C1200%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 40.5,
+        "y": 11.124297730643496
+      },
+      "held": {
+        "x": 40.5,
+        "y": 11.124297730643494
+      },
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
+      "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "retained-ground-new-proposal",
+      "search": "?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 13,
+      "stake": "grip",
+      "peg": {
+        "x": 39,
+        "y": 12.649110640673516
+      },
+      "held": {
+        "x": 39,
+        "y": 12.649110640673518
+      },
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "collinear-900",
+      "search": "?method=one&corner=en&grip=900&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 9,
+      "stake": "grip",
+      "peg": {
+        "x": 45,
+        "y": 0
+      },
+      "held": {
+        "x": 45,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 610, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "collinear-4500",
+      "search": "?method=one&corner=en&grip=4500&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 45,
+      "stake": "grip",
+      "peg": {
+        "x": -9,
+        "y": 0
+      },
+      "held": {
+        "x": -9,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 70, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "one-wn",
+      "search": "?method=one&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "one",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "one-ws",
+      "search": "?method=one&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "one-en",
+      "search": "?method=one&corner=en&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 15
+      },
+      "cordPixels": [520, 300, 520, 150, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "one-es",
+      "search": "?method=one&corner=es&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "es",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -15
+      },
+      "cordPixels": [520, 300, 520, 450, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "345-wn",
+      "search": "?method=345&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "345",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "345-ws",
+      "search": "?method=345&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "345-en",
+      "search": "?method=345&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "345-es",
+      "search": "?method=345&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark%3Ben%2C345%2C1200%2Cmark&page=9",
+      "method": "345",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "51213-wn",
+      "search": "?method=51213&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "51213",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "51213-ws",
+      "search": "?method=51213&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "51213-en",
+      "search": "?method=51213&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "51213-es",
+      "search": "?method=51213&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark%3Ben%2C51213%2C1200%2Cmark&page=9",
+      "method": "51213",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "81517-wn",
+      "search": "?method=81517&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "81517",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "81517-ws",
+      "search": "?method=81517&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "81517-en",
+      "search": "?method=81517&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "81517-es",
+      "search": "?method=81517&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark&page=9",
+      "method": "81517",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "hold-twelve",
+      "search": "?method=one&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark%3Bes%2C81517%2C1200%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 40.5,
+        "y": 11.124297730643496
+      },
+      "held": {
+        "x": 40.5,
+        "y": 11.124297730643494
+      },
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
+      "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "retained-ground-new-proposal",
+      "search": "?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 13,
+      "stake": "grip",
+      "peg": {
+        "x": 39,
+        "y": 12.649110640673516
+      },
+      "held": {
+        "x": 39,
+        "y": 12.649110640673518
+      },
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "collinear-900",
+      "search": "?method=one&corner=en&grip=900&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 9,
+      "stake": "grip",
+      "peg": {
+        "x": 45,
+        "y": 0
+      },
+      "held": {
+        "x": 45,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 610, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "collinear-4500",
+      "search": "?method=one&corner=en&grip=4500&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 45,
+      "stake": "grip",
+      "peg": {
+        "x": -9,
+        "y": 0
+      },
+      "held": {
+        "x": -9,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 70, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "one-wn",
+      "search": "?method=one&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "one",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "one-ws",
+      "search": "?method=one&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "one-en",
+      "search": "?method=one&corner=en&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 15
+      },
+      "cordPixels": [520, 300, 520, 150, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "one-es",
+      "search": "?method=one&corner=es&grip=1500&stake=mark&locus=0&placed=wn%2Cone%2C1500%2Cmark%3Bws%2Cone%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cmark&page=9",
+      "method": "one",
+      "corner": "es",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -15
+      },
+      "cordPixels": [520, 300, 520, 450, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "345-wn",
+      "search": "?method=345&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "345",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "345-ws",
+      "search": "?method=345&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "345-en",
+      "search": "?method=345&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark&page=9",
+      "method": "345",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "345-es",
+      "search": "?method=345&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C345%2C1500%2Cmark%3Bws%2C345%2C1500%2Cmark%3Ben%2C345%2C1200%2Cmark&page=9",
+      "method": "345",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 360, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "51213-wn",
+      "search": "?method=51213&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "51213",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "51213-ws",
+      "search": "?method=51213&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 520, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "51213-en",
+      "search": "?method=51213&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark&page=9",
+      "method": "51213",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "51213-es",
+      "search": "?method=51213&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C51213%2C1500%2Cmark%3Bws%2C51213%2C1500%2Cmark%3Ben%2C51213%2C1200%2Cmark&page=9",
+      "method": "51213",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 470, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "81517-wn",
+      "search": "?method=81517&corner=wn&grip=1500&stake=mark&locus=0&placed=&page=9",
+      "method": "81517",
+      "corner": "wn",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": 15
+      },
+      "held": {
+        "x": 0,
+        "y": 15
+      },
+      "cordPixels": [160, 300, 160, 150, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "81517-ws",
+      "search": "?method=81517&corner=ws&grip=1500&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "ws",
+      "grip": 15,
+      "stake": "mark",
+      "peg": {
+        "x": 0,
+        "y": -15
+      },
+      "held": {
+        "x": 0,
+        "y": -15
+      },
+      "cordPixels": [160, 300, 160, 450, 240, 300],
+      "scale": 10,
+      "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "81517-en",
+      "search": "?method=81517&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark&page=9",
+      "method": "81517",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": 12
+      },
+      "held": {
+        "x": 36,
+        "y": 12
+      },
+      "cordPixels": [520, 300, 520, 180, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "81517-es",
+      "search": "?method=81517&corner=es&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark&page=9",
+      "method": "81517",
+      "corner": "es",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 36,
+        "y": -12
+      },
+      "held": {
+        "x": 36,
+        "y": -12
+      },
+      "cordPixels": [520, 300, 520, 420, 170, 300],
+      "scale": 10,
+      "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
+      "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "hold-twelve",
+      "search": "?method=one&corner=en&grip=1200&stake=mark&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2C81517%2C1200%2Cmark%3Bes%2C81517%2C1200%2Cmark&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 12,
+      "stake": "mark",
+      "peg": {
+        "x": 40.5,
+        "y": 11.124297730643496
+      },
+      "held": {
+        "x": 40.5,
+        "y": 11.124297730643494
+      },
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
+      "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "retained-ground-new-proposal",
+      "search": "?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9",
+      "method": "one",
+      "corner": "en",
+      "grip": 13,
+      "stake": "grip",
+      "peg": {
+        "x": 39,
+        "y": 12.649110640673516
+      },
+      "held": {
+        "x": 39,
+        "y": 12.649110640673518
+      },
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "collinear-900",
+      "search": "?method=one&corner=en&grip=900&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 9,
+      "stake": "grip",
+      "peg": {
+        "x": 45,
+        "y": 0
+      },
+      "held": {
+        "x": 45,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 610, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "collinear-4500",
+      "search": "?method=one&corner=en&grip=4500&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=10",
+      "method": "one",
+      "corner": "en",
+      "grip": 45,
+      "stake": "grip",
+      "peg": {
+        "x": -9,
+        "y": 0
+      },
+      "held": {
+        "x": -9,
+        "y": 0
+      },
+      "cordPixels": [520, 300, 70, 300, 160, 300],
+      "scale": 10,
+      "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
+      "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
+    }
+  ],
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "shared": "http://127.0.0.1:44627/rajju/field.html?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9#field-workshop",
+      "sourceScans": 4,
+      "readingSha256": "2a24b7d57e2598a7f8ef9a5ba84fed1231c88e8d2f69340ea00dee31611c7a2d",
+      "templateSha256": "e1393e099d01d59a722d6c85a89ff9d18e05540748de2a4780c381e283c255ec",
+      "csvSha256": "15ae5003d1575d05cecd197f95a915b773b3ff18daf1922d75d2408ae9a3f1b8",
+      "axeViolations": 0,
+      "caches": {
+        "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3": [
+          "/rajju/assets/field-BFHUB9ev.js",
+          "/rajju/assets/field-D1F567u8.css",
+          "/rajju/assets/main-Clci9qEO.js",
+          "/rajju/assets/style-DzFutzMC.js",
+          "/rajju/assets/style-v_PlcGGw.css",
+          "/rajju/favicon.svg",
+          "/rajju/field.html",
+          "/rajju/fonts/IBMPlex-OFL.txt",
+          "/rajju/fonts/IBMPlexSans-Regular.woff2",
+          "/rajju/fonts/IBMPlexSans-SemiBold.woff2",
+          "/rajju/fonts/Newsreader.ttf",
+          "/rajju/fonts/NotoSerifDevanagari.ttf",
+          "/rajju/fonts/newsreader-OFL.txt",
+          "/rajju/fonts/notoserifdevanagari-OFL.txt",
+          "/rajju/index.html",
+          "/rajju/notices.html",
+          "/rajju/sources/thibaut-06.jpg",
+          "/rajju/sources/thibaut-07.jpg",
+          "/rajju/sources/thibaut-09.jpg",
+          "/rajju/sources/thibaut-10.jpg",
+          "/rajju/sources/thibaut-11.jpg",
+          "/rajju/sources/thibaut-12.jpg",
+          "/rajju/sources/thibaut-13.jpg",
+          "/rajju/sources/thibaut-14.jpg",
+          "/rajju/sources/thibaut-15.jpg",
+          "/rajju/sources/thibaut-26.jpg",
+          "/rajju/sources/thibaut-27.jpg",
+          "/rajju/sources/thibaut-28.jpg"
+        ]
+      },
+      "offline": "reload, both rooms, new source page and complete reading with local origin closed or external network offline",
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "shared": "http://127.0.0.1:45561/rajju/field.html?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9#field-workshop",
+      "sourceScans": 4,
+      "readingSha256": "cbac70b7298a7f25051198d7e9a0ba4f411dcf3f1aaa21d8e018d5fdd93a4fc7",
+      "templateSha256": "e1393e099d01d59a722d6c85a89ff9d18e05540748de2a4780c381e283c255ec",
+      "csvSha256": "15ae5003d1575d05cecd197f95a915b773b3ff18daf1922d75d2408ae9a3f1b8",
+      "axeViolations": 0,
+      "caches": {
+        "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3": [
+          "/rajju/assets/field-BFHUB9ev.js",
+          "/rajju/assets/field-D1F567u8.css",
+          "/rajju/assets/main-Clci9qEO.js",
+          "/rajju/assets/style-DzFutzMC.js",
+          "/rajju/assets/style-v_PlcGGw.css",
+          "/rajju/favicon.svg",
+          "/rajju/field.html",
+          "/rajju/fonts/IBMPlex-OFL.txt",
+          "/rajju/fonts/IBMPlexSans-Regular.woff2",
+          "/rajju/fonts/IBMPlexSans-SemiBold.woff2",
+          "/rajju/fonts/Newsreader.ttf",
+          "/rajju/fonts/NotoSerifDevanagari.ttf",
+          "/rajju/fonts/newsreader-OFL.txt",
+          "/rajju/fonts/notoserifdevanagari-OFL.txt",
+          "/rajju/index.html",
+          "/rajju/notices.html",
+          "/rajju/sources/thibaut-06.jpg",
+          "/rajju/sources/thibaut-07.jpg",
+          "/rajju/sources/thibaut-09.jpg",
+          "/rajju/sources/thibaut-10.jpg",
+          "/rajju/sources/thibaut-11.jpg",
+          "/rajju/sources/thibaut-12.jpg",
+          "/rajju/sources/thibaut-13.jpg",
+          "/rajju/sources/thibaut-14.jpg",
+          "/rajju/sources/thibaut-15.jpg",
+          "/rajju/sources/thibaut-26.jpg",
+          "/rajju/sources/thibaut-27.jpg",
+          "/rajju/sources/thibaut-28.jpg"
+        ]
+      },
+      "offline": "reload, both rooms, new source page and complete reading with local origin closed or external network offline",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "shared": "http://127.0.0.1:45607/rajju/field.html?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9#field-workshop",
+      "sourceScans": 4,
+      "readingSha256": "aec5b0a870173e29a6b9cce16e82d0b2124ec6f31cb8edc75ed7a537a681d2dc",
+      "templateSha256": "e1393e099d01d59a722d6c85a89ff9d18e05540748de2a4780c381e283c255ec",
+      "csvSha256": "241d6c4f211f6ee137f7164be65227514736af31b702151d1524874d03e1299f",
+      "axeViolations": 0,
+      "caches": {
+        "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3": [
+          "/rajju/assets/field-BFHUB9ev.js",
+          "/rajju/assets/field-D1F567u8.css",
+          "/rajju/assets/main-Clci9qEO.js",
+          "/rajju/assets/style-DzFutzMC.js",
+          "/rajju/assets/style-v_PlcGGw.css",
+          "/rajju/favicon.svg",
+          "/rajju/field.html",
+          "/rajju/fonts/IBMPlex-OFL.txt",
+          "/rajju/fonts/IBMPlexSans-Regular.woff2",
+          "/rajju/fonts/IBMPlexSans-SemiBold.woff2",
+          "/rajju/fonts/Newsreader.ttf",
+          "/rajju/fonts/NotoSerifDevanagari.ttf",
+          "/rajju/fonts/newsreader-OFL.txt",
+          "/rajju/fonts/notoserifdevanagari-OFL.txt",
+          "/rajju/index.html",
+          "/rajju/notices.html",
+          "/rajju/sources/thibaut-06.jpg",
+          "/rajju/sources/thibaut-07.jpg",
+          "/rajju/sources/thibaut-09.jpg",
+          "/rajju/sources/thibaut-10.jpg",
+          "/rajju/sources/thibaut-11.jpg",
+          "/rajju/sources/thibaut-12.jpg",
+          "/rajju/sources/thibaut-13.jpg",
+          "/rajju/sources/thibaut-14.jpg",
+          "/rajju/sources/thibaut-15.jpg",
+          "/rajju/sources/thibaut-26.jpg",
+          "/rajju/sources/thibaut-27.jpg",
+          "/rajju/sources/thibaut-28.jpg"
+        ]
+      },
+      "offline": "reload, both rooms, new source page and complete reading with local origin closed or external network offline",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "shared": "http://127.0.0.1:44959/rajju/field.html?method=one&corner=en&grip=1300&stake=grip&locus=0&placed=wn%2C81517%2C1500%2Cmark%3Bws%2C81517%2C1500%2Cmark%3Ben%2Cone%2C1500%2Cgrip%3Bes%2Cone%2C1500%2Cgrip&page=9#field-workshop",
+      "sourceScans": 4,
+      "readingSha256": "f61923f1fa5e19f44a5f3d8a28359f1cb5bfdda1b728264beaa552ca3f8d7373",
+      "templateSha256": "e1393e099d01d59a722d6c85a89ff9d18e05540748de2a4780c381e283c255ec",
+      "csvSha256": "241d6c4f211f6ee137f7164be65227514736af31b702151d1524874d03e1299f",
+      "axeViolations": 0,
+      "caches": {
+        "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3": [
+          "/rajju/assets/field-BFHUB9ev.js",
+          "/rajju/assets/field-D1F567u8.css",
+          "/rajju/assets/main-Clci9qEO.js",
+          "/rajju/assets/style-DzFutzMC.js",
+          "/rajju/assets/style-v_PlcGGw.css",
+          "/rajju/favicon.svg",
+          "/rajju/field.html",
+          "/rajju/fonts/IBMPlex-OFL.txt",
+          "/rajju/fonts/IBMPlexSans-Regular.woff2",
+          "/rajju/fonts/IBMPlexSans-SemiBold.woff2",
+          "/rajju/fonts/Newsreader.ttf",
+          "/rajju/fonts/NotoSerifDevanagari.ttf",
+          "/rajju/fonts/newsreader-OFL.txt",
+          "/rajju/fonts/notoserifdevanagari-OFL.txt",
+          "/rajju/index.html",
+          "/rajju/notices.html",
+          "/rajju/sources/thibaut-06.jpg",
+          "/rajju/sources/thibaut-07.jpg",
+          "/rajju/sources/thibaut-09.jpg",
+          "/rajju/sources/thibaut-10.jpg",
+          "/rajju/sources/thibaut-11.jpg",
+          "/rajju/sources/thibaut-12.jpg",
+          "/rajju/sources/thibaut-13.jpg",
+          "/rajju/sources/thibaut-14.jpg",
+          "/rajju/sources/thibaut-15.jpg",
+          "/rajju/sources/thibaut-26.jpg",
+          "/rajju/sources/thibaut-27.jpg",
+          "/rajju/sources/thibaut-28.jpg"
+        ]
+      },
+      "offline": "reload, both rooms, new source page and complete reading with local origin closed or external network offline",
+      "errors": []
+    }
+  ]
+}

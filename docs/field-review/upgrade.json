@@ -1,0 +1,46 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "oldCache": "rajju-b8bd1ec9bccc35c1dfc732a80db08510caae65013bfa2b9f647594bb0a88da67",
+    "oldFileCount": 21,
+    "pendingOrRefused": "Preparing offline reading…",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3",
+    "newFileCount": 28,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "chromium",
+    "scenario": "substituted",
+    "oldCache": "rajju-b8bd1ec9bccc35c1dfc732a80db08510caae65013bfa2b9f647594bb0a88da67",
+    "oldFileCount": 21,
+    "pendingOrRefused": "A different offline edition is saved. Reload online to finish updating.",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3",
+    "newFileCount": 28,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "oldCache": "rajju-b8bd1ec9bccc35c1dfc732a80db08510caae65013bfa2b9f647594bb0a88da67",
+    "oldFileCount": 21,
+    "pendingOrRefused": "Preparing offline reading…",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3",
+    "newFileCount": 28,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "firefox",
+    "scenario": "substituted",
+    "oldCache": "rajju-b8bd1ec9bccc35c1dfc732a80db08510caae65013bfa2b9f647594bb0a88da67",
+    "oldFileCount": 21,
+    "pendingOrRefused": "Offline download unavailable; reading still works online",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-850934f9f4f1ba80fc32c5c4cde8ab49a5e9975bba9d3db6881356ce7e1a81f3",
+    "newFileCount": 28,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  }
+]

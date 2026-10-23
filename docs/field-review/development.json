@@ -1,0 +1,130 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lesson": "circle",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lesson": "diagonal",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lesson": "field",
+    "sourcePagesEmbedded": 4,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "lesson": "circle",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "lesson": "diagonal",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "lesson": "field",
+    "sourcePagesEmbedded": 4,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "lesson": "circle",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "lesson": "diagonal",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "lesson": "field",
+    "sourcePagesEmbedded": 4,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "lesson": "circle",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "lesson": "diagonal",
+    "drawing": {
+      "stroke": "rgb(23, 60, 81)",
+      "width": "5px"
+    },
+    "sourcePagesEmbedded": 9,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "lesson": "field",
+    "sourcePagesEmbedded": 4,
+    "serviceWorkerRegistrations": 0,
+    "standaloneDownload": true
+  }
+]

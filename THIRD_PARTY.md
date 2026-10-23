@@ -19,6 +19,9 @@ No modern photograph or modern critical edition is redistributed.
 | ------------ | ------------------- | --------------------------------------------------------------------------- |
 | 6            | 12                  | Context of ritual area transformations; the editor's account of motivations |
 | 7            | 13                  | Cord/diagonal and double area; terminology including _rajju_                |
+| 9            | 15                  | Āpastamba: ground dimensions and the one-cord rule                          |
+| 10           | 16                  | Holding fifteen, staking twelve; direction discrepancy and 3–4–5            |
+| 11           | 17                  | Alternative enlarged triples and the paired 8–15–17 / 12–35–37              |
 | 12           | 18                  | Baudhāyana's numerical diagonal rule, at the bottom                         |
 | 13           | 19                  | Translation, nested fractions, beginning of the editor's conjecture         |
 | 14           | 20                  | The 17-by-17 square and overlapping strips                                  |

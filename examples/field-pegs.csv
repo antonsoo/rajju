@@ -1,0 +1,7 @@
+"scope","corner","method","hold_from_selected_end","stake_from_selected_end","x_east","y_north","distance_from_target","grip_angle_degrees","reference"
+"proposed","en","one","13","13","39","12.649110640673516","3.069420893887898","103.34236379708823","Length in consistent source units; origin W; positive x east, positive y north. Grip angle is at the baseline end, not the trapezoid corner."
+"placed","wn","81517","15","15","0","15","0","90","Length in consistent source units; origin W; positive x east, positive y north. Grip angle is at the baseline end, not the trapezoid corner."
+"placed","ws","81517","15","15","0","-15","0","90","Length in consistent source units; origin W; positive x east, positive y north. Grip angle is at the baseline end, not the trapezoid corner."
+"placed","en","one","15","15","36","15","3","90","Length in consistent source units; origin W; positive x east, positive y north. Grip angle is at the baseline end, not the trapezoid corner."
+"placed","es","one","15","15","36","-15","3","90","Length in consistent source units; origin W; positive x east, positive y north. Grip angle is at the baseline end, not the trapezoid corner."
+"ground","","","","","","","","","Enclosed area 1080 square source units; prescribed 972; western width 30; eastern width 30."
