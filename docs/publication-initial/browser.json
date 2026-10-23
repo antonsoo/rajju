@@ -1,0 +1,6349 @@
+{
+  "base": "https://antonsoo.github.io/rajju/",
+  "constructions": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "source-third",
+      "state": {
+        "lesson": "circle",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "707.1067811865474",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "207.10678118654758",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "569.0355937288491",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "1138.0711874576982",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "1000000",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "1017252.4353936727",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "84051.79906568605",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "101304.23445935876",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "1000.0023858902279",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "1000004.7717861482",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.0023858902278295346",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "rescaled-source",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.738008813651",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8345.476017627301",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54700602.29340363",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4519708.06140944",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5447421.354813074",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7333.017495733041",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53773145.59272688",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.017495733040673977",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "equal-area",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "equal",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 186.1825625707596,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 188.38237504540427
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "equal",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3099347263281481",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4137.202216155697",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8274.404432311394",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "53772888.99999999",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4868918.329946052",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "4868918.329946047",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-1.1102230246251565e-14",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7270.568190568156",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52861161.81370151",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-62.431809431844286",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "inscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 0,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 165,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 166.949533045977
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "3666.5",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "42233128.26117485",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "11539760.738825152",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-21.460183660255172",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "6443.373293821839",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "41517059.4035365",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-889.626706178161",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-22.791837716704244",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "circumscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 1000,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 233.3452377915607,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 236.10229386547593
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "1",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "5185.214026440954",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "10370.428052881907",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "84466256.52234972",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "30693367.522349723",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "57.0796326794897",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "9112.305899555447",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "83034118.80707301",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "1779.3058995554472",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "54.416324566591555",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "custom-third",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 189.97740239887014
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7332.12785153113",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53760098.8311985",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-0.8721484688701964",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-0.023785534010456466",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "short-return",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "simple",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 187.37965314583298
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "simple",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "13/15",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7231.868402728385",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52299920.594381206",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-101.13159727161475",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-2.7392398530396878",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-4.365563084336643",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "diagonal-0",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 0
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [257.27922061357856, 202.72077938642144],
+          [384.5584412271571, 330],
+          [257.27922061357856, 457.27922061357856]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "0",
+          "unit": "",
+          "reference": "1"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-414.21356237309516",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-1",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/2",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-500000",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "diagonal-1",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 1
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [299.7056274847714, 160.29437251522862],
+          [469.41125496954277, 330],
+          [299.7056274847714, 499.7056274847714]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "1",
+          "unit": "",
+          "reference": "1 + 1/3"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "4/3",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1333.3333333333333",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-80.88022903976189",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "16/9",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-2/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-111111.11111111111",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "diagonal-2",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 2
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.3122292025696, 149.6877707974304],
+          [490.6244584051392, 330],
+          [310.3122292025696, 510.3122292025696]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "2",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "17/12",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1416.6666666666667",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "2.453104293571595",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "289/144",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/144",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/288",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3472.222222222222",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "name": "diagonal-3",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.00027032851676, 149.99972967148327],
+          [490.00054065703347, 330],
+          [310.00027032851676, 510.00027032851676]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "3",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12 − 1/408"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "577/408",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1414.2156862745098",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "0.0021239014147411694",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "332929/166464",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/166464",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/332928",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3.0036524413687045",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "source-third",
+      "state": {
+        "lesson": "circle",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "707.1067811865474",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "207.10678118654758",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "569.0355937288491",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "1138.0711874576982",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "1000000",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "1017252.4353936727",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "84051.79906568605",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "101304.23445935876",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "1000.0023858902279",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "1000004.7717861482",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.0023858902278295346",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "rescaled-source",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.738008813651",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8345.476017627301",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54700602.29340363",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4519708.06140944",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5447421.354813074",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7333.017495733041",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53773145.59272688",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.017495733040673977",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "equal-area",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "equal",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 186.1825625707596,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 188.38237504540427
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "equal",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3099347263281481",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4137.202216155697",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8274.404432311394",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "53772888.99999999",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4868918.329946052",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "4868918.329946047",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-1.1102230246251565e-14",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7270.568190568156",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52861161.81370151",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-62.431809431844286",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "inscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 0,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 165,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 166.949533045977
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "3666.5",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "42233128.26117485",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "11539760.738825152",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-21.460183660255172",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "6443.373293821839",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "41517059.4035365",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-889.626706178161",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-22.791837716704244",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "circumscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 1000,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 233.3452377915607,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 236.10229386547593
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "1",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "5185.214026440954",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "10370.428052881907",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "84466256.52234972",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "30693367.522349723",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "57.0796326794897",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "9112.305899555447",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "83034118.80707301",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "1779.3058995554472",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "54.416324566591555",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "custom-third",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 189.97740239887014
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7332.12785153113",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53760098.8311985",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-0.8721484688701964",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-0.023785534010456466",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "short-return",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "simple",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 187.37965314583298
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "simple",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "13/15",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7231.868402728385",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52299920.594381206",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-101.13159727161475",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-2.7392398530396878",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-4.365563084336643",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "diagonal-0",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 0
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [257.27922061357856, 202.72077938642144],
+          [384.5584412271571, 330],
+          [257.27922061357856, 457.27922061357856]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "0",
+          "unit": "",
+          "reference": "1"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-414.21356237309516",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-1",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/2",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-500000",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "diagonal-1",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 1
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [299.7056274847714, 160.29437251522862],
+          [469.41125496954277, 330],
+          [299.7056274847714, 499.7056274847714]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "1",
+          "unit": "",
+          "reference": "1 + 1/3"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "4/3",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1333.3333333333333",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-80.88022903976189",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "16/9",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-2/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-111111.11111111111",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "diagonal-2",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 2
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.3122292025696, 149.6877707974304],
+          [490.6244584051392, 330],
+          [310.3122292025696, 510.3122292025696]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "2",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "17/12",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1416.6666666666667",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "2.453104293571595",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "289/144",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/144",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/288",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3472.222222222222",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "diagonal-3",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.00027032851676, 149.99972967148327],
+          [490.00054065703347, 330],
+          [310.00027032851676, 510.00027032851676]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "3",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12 − 1/408"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "577/408",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1414.2156862745098",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "0.0021239014147411694",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "332929/166464",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/166464",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/332928",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3.0036524413687045",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "source-third",
+      "state": {
+        "lesson": "circle",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "707.1067811865474",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "207.10678118654758",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "569.0355937288491",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "1138.0711874576982",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "1000000",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "1017252.4353936727",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "84051.79906568605",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "101304.23445935876",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "1000.0023858902279",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "1000004.7717861482",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.0023858902278295346",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "rescaled-source",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.738008813651",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8345.476017627301",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54700602.29340363",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4519708.06140944",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5447421.354813074",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7333.017495733041",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53773145.59272688",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.017495733040673977",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "equal-area",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "equal",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 186.1825625707596,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 188.38237504540427
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "equal",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3099347263281481",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4137.202216155697",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8274.404432311394",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "53772888.99999999",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4868918.329946052",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "4868918.329946047",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-1.1102230246251565e-14",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7270.568190568156",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52861161.81370151",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-62.431809431844286",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "inscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 0,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 165,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 166.949533045977
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "3666.5",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "42233128.26117485",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "11539760.738825152",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-21.460183660255172",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "6443.373293821839",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "41517059.4035365",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-889.626706178161",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-22.791837716704244",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "circumscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 1000,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 233.3452377915607,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 236.10229386547593
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "1",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "5185.214026440954",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "10370.428052881907",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "84466256.52234972",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "30693367.522349723",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "57.0796326794897",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "9112.305899555447",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "83034118.80707301",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "1779.3058995554472",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "54.416324566591555",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "custom-third",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 189.97740239887014
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7332.12785153113",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53760098.8311985",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-0.8721484688701964",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-0.023785534010456466",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "short-return",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "simple",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 187.37965314583298
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "simple",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "13/15",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7231.868402728385",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52299920.594381206",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-101.13159727161475",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-2.7392398530396878",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-4.365563084336643",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "diagonal-0",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 0
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [257.27922061357856, 202.72077938642144],
+          [384.5584412271571, 330],
+          [257.27922061357856, 457.27922061357856]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "0",
+          "unit": "",
+          "reference": "1"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-414.21356237309516",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-1",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/2",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-500000",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "diagonal-1",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 1
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [299.7056274847714, 160.29437251522862],
+          [469.41125496954277, 330],
+          [299.7056274847714, 499.7056274847714]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "1",
+          "unit": "",
+          "reference": "1 + 1/3"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "4/3",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1333.3333333333333",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-80.88022903976189",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "16/9",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-2/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-111111.11111111111",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "diagonal-2",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 2
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.3122292025696, 149.6877707974304],
+          [490.6244584051392, 330],
+          [310.3122292025696, 510.3122292025696]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "2",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "17/12",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1416.6666666666667",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "2.453104293571595",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "289/144",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/144",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/288",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3472.222222222222",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "name": "diagonal-3",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.00027032851676, 149.99972967148327],
+          [490.00054065703347, 330],
+          [310.00027032851676, 510.00027032851676]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "3",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12 − 1/408"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "577/408",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1414.2156862745098",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "0.0021239014147411694",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "332929/166464",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/166464",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/332928",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3.0036524413687045",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "source-third",
+      "state": {
+        "lesson": "circle",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "707.1067811865474",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "207.10678118654758",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "569.0355937288491",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "1138.0711874576982",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "1000000",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "1017252.4353936727",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "84051.79906568605",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "101304.23445935876",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "1000.0023858902279",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "1000004.7717861482",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.0023858902278295346",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "rescaled-source",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.78174593052023,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 190.00045331914328
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "third",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3333333333333333",
+          "unit": "ratio",
+          "reference": "Exactly 1/3; decimal rounded"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.738008813651",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8345.476017627301",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54700602.29340363",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4519708.06140944",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5447421.354813074",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7252435393672716",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7333.017495733041",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53773145.59272688",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "0.017495733040673977",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "0.0004771786148216606",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "equal-area",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "equal",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 186.1825625707596,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 188.38237504540427
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "equal",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.3099347263281481",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4137.202216155697",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8274.404432311394",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "53772888.99999999",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4868918.329946052",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "4868918.329946047",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-1.1102230246251565e-14",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7270.568190568156",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52861161.81370151",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-62.431809431844286",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "inscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 0,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 165,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 166.949533045977
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "3666.5",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "42233128.26117485",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "11539760.738825152",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "-21.460183660255172",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "6443.373293821839",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "41517059.4035365",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-889.626706178161",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-22.791837716704244",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "circumscribed",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 1000,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 233.3452377915607,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 236.10229386547593
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "1",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "5185.214026440954",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "10370.428052881907",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "84466256.52234972",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "0",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "30693367.522349723",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "57.0796326794897",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "9112.305899555447",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "83034118.80707301",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "1779.3058995554472",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "54.416324566591555",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779523",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "custom-third",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 189.97740239887014
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "detailed",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "9785/11136",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7332.12785153113",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "53760098.8311985",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-0.8721484688701964",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-0.023785534010456466",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-1.6955146045779412",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "short-return",
+      "state": {
+        "lesson": "circle",
+        "side": 7333,
+        "rule": "custom",
+        "kept": 333,
+        "returnRule": "simple",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 330,
+        "radius": 187.7589641845897,
+        "squareWidth": 330,
+        "returnScale": 190,
+        "returnedWidth": 187.37965314583298
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "circle",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "7333",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "circle_rule",
+          "value": "custom",
+          "unit": "",
+          "reference": "Modern comparison"
+        },
+        {
+          "scope": "selection",
+          "quantity": "return_rule",
+          "value": "simple",
+          "unit": "",
+          "reference": "Source rule"
+        },
+        {
+          "scope": "circle",
+          "quantity": "kept_excess_fraction",
+          "value": "0.333",
+          "unit": "ratio",
+          "reference": "Chosen comparison"
+        },
+        {
+          "scope": "circle",
+          "quantity": "half_diagonal",
+          "value": "5185.214026440953",
+          "unit": "mm",
+          "reference": "Geometric diagonal, not 577/408"
+        },
+        {
+          "scope": "circle",
+          "quantity": "excess",
+          "value": "1518.7140264409534",
+          "unit": "mm",
+          "reference": "Half diagonal minus half side"
+        },
+        {
+          "scope": "circle",
+          "quantity": "radius",
+          "value": "4172.231770804838",
+          "unit": "mm",
+          "reference": "Half side plus kept excess"
+        },
+        {
+          "scope": "circle",
+          "quantity": "diameter",
+          "value": "8344.463541609675",
+          "unit": "mm",
+          "reference": "Twice radius"
+        },
+        {
+          "scope": "circle",
+          "quantity": "original_area",
+          "value": "53772889",
+          "unit": "mm^2",
+          "reference": "Starting square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "circle_area",
+          "value": "54687330.50679502",
+          "unit": "mm^2",
+          "reference": "Pi times radius squared"
+        },
+        {
+          "scope": "circle",
+          "quantity": "lost_area",
+          "value": "4524571.403539792",
+          "unit": "mm^2",
+          "reference": "Square outside circle"
+        },
+        {
+          "scope": "circle",
+          "quantity": "gained_area",
+          "value": "5439012.910334811",
+          "unit": "mm^2",
+          "reference": "Circle outside square"
+        },
+        {
+          "scope": "circle",
+          "quantity": "area_error_percent",
+          "value": "1.7005623536332948",
+          "unit": "%",
+          "reference": "Circle versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "factor",
+          "value": "13/15",
+          "unit": "exact ratio",
+          "reference": "Returned side divided by circle diameter"
+        },
+        {
+          "scope": "return",
+          "quantity": "side",
+          "value": "7231.868402728385",
+          "unit": "mm",
+          "reference": "Diameter times return factor"
+        },
+        {
+          "scope": "return",
+          "quantity": "area",
+          "value": "52299920.594381206",
+          "unit": "mm^2",
+          "reference": "Returned square"
+        },
+        {
+          "scope": "return",
+          "quantity": "side_error",
+          "value": "-101.13159727161475",
+          "unit": "mm",
+          "reference": "Returned side minus starting side"
+        },
+        {
+          "scope": "return",
+          "quantity": "area_error_percent",
+          "value": "-2.7392398530396878",
+          "unit": "%",
+          "reference": "Returned square versus starting square"
+        },
+        {
+          "scope": "return",
+          "quantity": "circle_area_error_percent",
+          "value": "-4.365563084336643",
+          "unit": "%",
+          "reference": "Returned square versus intermediate circle"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "diagonal-0",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 0
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [257.27922061357856, 202.72077938642144],
+          [384.5584412271571, 330],
+          [257.27922061357856, 457.27922061357856]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "0",
+          "unit": "",
+          "reference": "1"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-414.21356237309516",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "1",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-1",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/2",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-500000",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "diagonal-1",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 1
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [299.7056274847714, 160.29437251522862],
+          [469.41125496954277, 330],
+          [299.7056274847714, 499.7056274847714]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "1",
+          "unit": "",
+          "reference": "1 + 1/3"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "4/3",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1333.3333333333333",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "-80.88022903976189",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "16/9",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "-2/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "-1/9",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "-111111.11111111111",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "diagonal-2",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 2
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.3122292025696, 149.6877707974304],
+          [490.6244584051392, 330],
+          [310.3122292025696, 510.3122292025696]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "2",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "17/12",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1416.6666666666667",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "2.453104293571595",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "289/144",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/144",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/288",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3472.222222222222",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "diagonal-3",
+      "state": {
+        "lesson": "diagonal",
+        "side": 1000,
+        "rule": "third",
+        "kept": 333,
+        "returnRule": "detailed",
+        "stage": 3
+      },
+      "svg": {
+        "scale": 180,
+        "points": [
+          [130, 330],
+          [310.00027032851676, 149.99972967148327],
+          [490.00054065703347, 330],
+          [310.00027032851676, 510.00027032851676]
+        ]
+      },
+      "csv": [
+        {
+          "scope": "selection",
+          "quantity": "lesson",
+          "value": "diagonal",
+          "unit": "",
+          "reference": "Selected lesson"
+        },
+        {
+          "scope": "selection",
+          "quantity": "side",
+          "value": "1000",
+          "unit": "mm",
+          "reference": "Modern illustrative scale"
+        },
+        {
+          "scope": "selection",
+          "quantity": "stage",
+          "value": "3",
+          "unit": "",
+          "reference": "1 + 1/3 + 1/12 − 1/408"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "ratio",
+          "value": "577/408",
+          "unit": "exact ratio",
+          "reference": "Numerical cord divided by starting side"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "numerical_length",
+          "value": "1414.2156862745098",
+          "unit": "mm",
+          "reference": "Side times rational ratio"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "geometric_length",
+          "value": "1414.213562373095",
+          "unit": "mm",
+          "reference": "Side times sqrt(2)"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "length_error",
+          "value": "0.0021239014147411694",
+          "unit": "mm",
+          "reference": "Numerical minus geometric length"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_ratio",
+          "value": "332929/166464",
+          "unit": "exact ratio",
+          "reference": "Square on cord divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ratio",
+          "value": "1/166464",
+          "unit": "exact ratio",
+          "reference": "Excess divided by original square"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "relative_area_error",
+          "value": "1/332928",
+          "unit": "exact ratio",
+          "reference": "Excess divided by target double area"
+        },
+        {
+          "scope": "diagonal",
+          "quantity": "area_error_ppm",
+          "value": "3.0036524413687045",
+          "unit": "ppm",
+          "reference": "Excess divided by target double area"
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "circleAxeViolations": 0,
+      "diagonalAxeViolations": 0,
+      "keyboard": true,
+      "sourceZoomAndPan": true,
+      "clipboardFallback": true,
+      "history": true,
+      "invalidLinkReset": true,
+      "offlineReload": true,
+      "originClosed": false,
+      "sourcePageOffline": 15,
+      "offlineReadingDownload": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "circleAxeViolations": 0,
+      "diagonalAxeViolations": 0,
+      "keyboard": true,
+      "sourceZoomAndPan": true,
+      "clipboardFallback": true,
+      "history": true,
+      "invalidLinkReset": true,
+      "offlineReload": true,
+      "originClosed": false,
+      "sourcePageOffline": 15,
+      "offlineReadingDownload": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "circleAxeViolations": 0,
+      "diagonalAxeViolations": 0,
+      "keyboard": true,
+      "sourceZoomAndPan": true,
+      "clipboardFallback": true,
+      "history": true,
+      "invalidLinkReset": true,
+      "offlineReload": true,
+      "originClosed": false,
+      "sourcePageOffline": 15,
+      "offlineReadingDownload": true,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "circleAxeViolations": 0,
+      "diagonalAxeViolations": 0,
+      "keyboard": true,
+      "sourceZoomAndPan": true,
+      "clipboardFallback": true,
+      "history": true,
+      "invalidLinkReset": true,
+      "offlineReload": true,
+      "originClosed": false,
+      "sourcePageOffline": 15,
+      "offlineReadingDownload": true,
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ],
+  "saved": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "lesson": "circle",
+      "bytes": 6819794,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lesson": "circle",
+      "bytes": 6819794,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "lesson": "circle",
+      "bytes": 6819794,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lesson": "circle",
+      "bytes": 6819794,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lesson": "diagonal",
+      "bytes": 6817164,
+      "completeSourcePages": 9,
+      "verifiedSourceHashes": 9,
+      "independentFileOpened": true,
+      "externalRequests": 0
+    }
+  ]
+}
