@@ -4,7 +4,7 @@
   "private": true,
   "description": "Read Indian cord geometry: circle and return, exact diagonal fractions, and a ground laid out with a marked cord.",
   "type": "module",
-  "author": "Anton Soloviev <anton@praviel.com>",
+  "author": "Anthony Mercer <anthony@praviel.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -210,5 +210,5 @@ remain online resources; the bundled pages belong to the offline edition.
 Corrections tied to an exact printed passage, or a reproducible geometric
 counterexample, are especially useful. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Code, new diagrams and English notes: [MIT](LICENSE), Anton Soloviev, 2026.
+Code, new diagrams and English notes: [MIT](LICENSE), Anthony Mercer, 2026.
 Historical pages are public domain; fonts retain their [separate notices](THIRD_PARTY.md).
