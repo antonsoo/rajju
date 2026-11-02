@@ -17,6 +17,8 @@ export interface FieldState extends PegSetting {
   locus: boolean;
   placed: Partial<Record<Corner, PegSetting>>;
   page: number;
+  nearError: number;
+  farError: number;
 }
 export const FIELD_PAGES = [9, 10, 11, 12] as const;
 export const FIELD_DEFAULT: FieldState = {
@@ -27,6 +29,8 @@ export const FIELD_DEFAULT: FieldState = {
   locus: false,
   placed: {},
   page: 9,
+  nearError: 0,
+  farError: 0,
 };
 export const CORNER_NAMES: Record<Corner, string> = {
   wn: "Northwest",
@@ -186,7 +190,17 @@ export function parseField(search: string): { state: FieldState; issue: string |
   const params = new URLSearchParams(search);
   const state = empty();
   try {
-    for (const key of ["method", "corner", "grip", "stake", "locus", "placed", "page"])
+    for (const key of [
+      "method",
+      "corner",
+      "grip",
+      "stake",
+      "locus",
+      "placed",
+      "page",
+      "nearerr",
+      "farerr",
+    ])
       if (params.getAll(key).length > 1) throw new Error("duplicate");
     const method = params.get("method") ?? state.method;
     const corner = params.get("corner") ?? state.corner;
@@ -197,6 +211,13 @@ export function parseField(search: string): { state: FieldState; issue: string |
       if (!/^\d{1,5}$/.test(raw)) throw new Error("number");
       return Number(raw);
     };
+    const errorValue = (key: string) => {
+      const raw = params.get(key) ?? "0";
+      if (!/^-?\d{1,3}$/.test(raw) || Math.abs(Number(raw)) > 300) throw new Error("error range");
+      return Number(raw);
+    };
+    const nearError = errorValue("nearerr");
+    const farError = errorValue("farerr");
     const grip = params.has("grip")
       ? integer(params.get("grip") ?? "")
       : sourcePeg(method, corner).grip;
@@ -218,7 +239,17 @@ export function parseField(search: string): { state: FieldState; issue: string |
       state.placed[c] = setting;
     }
     return {
-      state: { ...state, method, corner, grip, stake, locus: locus === "1", page },
+      state: {
+        ...state,
+        method,
+        corner,
+        grip,
+        stake,
+        locus: locus === "1",
+        page,
+        nearError,
+        farError,
+      },
       issue: null,
     };
   } catch {
@@ -237,7 +268,7 @@ export function serializeField(state: FieldState): string {
       return [c, s.method, s.grip, s.stake].join(",");
     })
     .join(";");
-  return `?${new URLSearchParams({ method: state.method, corner: state.corner, grip: String(state.grip), stake: state.stake, locus: state.locus ? "1" : "0", placed: records, page: String(state.page) })}`;
+  return `?${new URLSearchParams({ method: state.method, corner: state.corner, grip: String(state.grip), stake: state.stake, locus: state.locus ? "1" : "0", placed: records, page: String(state.page), nearerr: String(state.nearError), farerr: String(state.farError) })}`;
 }
 
 export type FieldModel = ReturnType<typeof fieldModel>;
