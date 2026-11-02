@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+- Compare all four source cord procedures with independently chosen near and
+  return length errors, magnified peg displacements, and explicit unreachable
+  and collinear outcomes. Keep the source and modern assumptions separate.
+- Preserve errors in shared layouts, CSVs and complete illustrated readings;
+  retain source-page, keyboard, phone and real offline workflows.
+- Repair the source inventory hash for the notice page changed by the existing
+  noncommercial license migration; historical scans and font bytes are unchanged.
+
 ## 0.2.0 — 2026-10-22
 
 - Āpastamba's ground-layout room: distinguish grip and stake marks, retain four

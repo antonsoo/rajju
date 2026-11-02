@@ -126,6 +126,46 @@ width and two marks in Sanskrit, IAST and English. The page note retains a
 direction discrepancy in the original English. The [field model](docs/field-model.md)
 gives the complete source-length table, coordinate derivation and limits.
 
+### Same error. Different miss.
+
+The field room now compares the four procedures under the same two chosen
+segment-length errors. Start the local app, then open
+`http://127.0.0.1:4392/rajju/field.html?nearerr=10&farerr=0#cord-errors`.
+Predict which eastern peg stays closest to the target, then compare the
+magnified displacements and individual measurements. Move the grip while
+keeping total length fixed, or make the five-unit-baseline procedure collinear
+or unreachable. No peg is invented for a cord that cannot reach both anchors.
+
+![Four eastern procedures respond differently to the same near-segment error](docs/assets/cord-errors-desktop.png)
+
+This is modern sensitivity analysis, not a measurement of ancient workmanship.
+The anchors stay exact; the one-cord procedure's separate twelve mark also
+stays exact. Change those assumptions and the comparison could change. Error
+controls preserve previously placed pegs. Shared links and illustrated readings
+retain both errors, all four results and their assumptions.
+
+[Source lengths and model](docs/cord-error-model.md) ·
+[Operated review](docs/cord-error-review.md) ·
+[Actual comparison CSV](examples/cord-errors.csv) ·
+[Saved reading, gzip](examples/cord-errors-reading.html.gz) ·
+[Printed reading](examples/cord-errors-reading.pdf).
+Decompress the HTML before opening it. These new examples were saved from a
+local build; their return-to-workshop link identifies that local test origin.
+This change has not been published to the live demo.
+
+```sh
+npm run verify:cord-errors
+npm run test:cord-errors -- /tmp/rajju-cord-errors
+python3 scripts/cord-error-oracle.py /tmp/rajju-cord-errors/receipt.json
+```
+
+The independent checker bisects the angle of a rotating near segment until its
+free end meets the return segment's distance constraint. It checks 1,936 cases
+from a separate transcription of the printed lengths. The operated browser
+review checks displayed values and actual SVG endpoints, native downloads,
+keyboard controls and origin-disabled operation in Chromium and Firefox at
+1440 px and 375 px.
+
 Inspect the actual [illustrated field reading](examples/field-reading.html.gz)
 (extract before opening), [eight-page A4 PDF](examples/field-reading.pdf),
 [retained peg CSV](examples/field-pegs.csv) and [paper cord template](examples/paper-cord.svg).
@@ -199,8 +239,9 @@ Thibaut's historical conjectures and modern numerical analysis have different
 evidential status. No date of invention, comparative priority, proof of
 irrationality or transmission route is established here.
 
-Millimetres are illustrative. The app omits construction tolerances, soil,
-brick courses, cord stretch and ritual practice. The exact rational factors do
+Millimetres are illustrative. The new sensitivity comparison uses chosen ideal
+segment errors; it does not measure physical construction tolerances. The app
+omits soil, brick courses, material cord stretch and ritual practice. The exact rational factors do
 not make the ancient circle-area transformations exact. JavaScript roots,
 decimal displays and SVG coordinates are rounded. Linked external editions
 remain online resources; the bundled pages belong to the offline edition.
