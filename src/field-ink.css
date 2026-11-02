@@ -67,3 +67,9 @@ svg .mark-label {
   font-size: 15px;
   fill: #a6462c;
 }
+
+svg .invalid-ground {
+  fill: none;
+  stroke: #a6462c;
+  stroke-dasharray: 5 3;
+}

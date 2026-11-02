@@ -116,3 +116,28 @@ test("impossible, duplicate and truncated peg records reset the whole link", () 
     assert.deepEqual(parsed.state, FIELD_DEFAULT);
   }
 });
+
+test("a boundary that doubles back along an edge has no simple enclosed-ground area", () => {
+  const placed = {
+    wn: { method: "one" as const, grip: 900, stake: "grip" as const },
+    en: { method: "one" as const, grip: 900, stake: "grip" as const },
+    es: { method: "345" as const, grip: 2400, stake: "grip" as const },
+    ws: { method: "one" as const, grip: 1500, stake: "mark" as const },
+  };
+  const ground = fieldGround(placed);
+  assert.ok(ground.complete);
+  assert.deepEqual(
+    ground.polygon.map((p) => [p.x, p.y || 0]),
+    [
+      [-9, 0],
+      [45, 0],
+      [12, 0],
+      [0, -15],
+    ],
+  );
+  // The boundary travels past x=12 to x=45 and back. Its algebraic
+  // shoelace result 157.5 is not an area of a simple four-peg enclosure.
+  assert.equal(ground.algebraicArea, -157.5);
+  assert.equal(ground.crossed, true);
+  assert.equal(ground.area, null);
+});

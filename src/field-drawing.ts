@@ -36,12 +36,12 @@ export function fieldDrawing(state: FieldState, prefix = "field"): string {
     .join("");
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 625" role="img" aria-labelledby="${prefix}-title ${prefix}-desc" data-drawing="field" data-scale="${FIELD_SCALE}" data-origin-x="160" data-origin-y="300">
     <title id="${prefix}-title">Taut cord for the ${CORNER_NAMES[state.corner].toLowerCase()} peg</title>
-    <desc id="${prefix}-desc">The centre line runs 36 units east from W to E. The prescribed west and east widths are 30 and 24. The cord is ${m.loop} units long, held ${number(m.first, 2)} units from the selected end. The grip and the stake mark are distinct. The current peg is at ${number(m.peg.x, 8)}, ${number(m.peg.y, 8)}. Both axes use the same scale. North is upward.</desc>
+    <desc id="${prefix}-desc">The centre line runs 36 units east from W to E. The prescribed west and east widths are 30 and 24. The cord is ${m.loop} units long, held ${number(m.first, 2)} units from the selected end. The grip and the stake mark are distinct. The current peg is at ${number(m.peg.x, 8)}, ${number(m.peg.y, 8)}. Both axes use the same scale. North is upward.${ground.complete && ground.area === null ? " The placed boundary crosses, overlaps or collapses. No enclosed-ground area is assigned." : ""}</desc>
     <path d="M${point(-11, 0)}L${point(48, 0)}" class="axis"/>
     <text x="${X(48)}" y="${Y(0) - 13}" text-anchor="end" class="direction">EAST</text>
     <text x="${X(-10)}" y="${Y(22)}" class="direction">NORTH ↑</text>
     <polygon points="${point(0, 15)} ${point(36, 12)} ${point(36, -12)} ${point(0, -15)}" class="target-ground"/>
-    ${ground.complete ? `<polygon points="${ground.polygon.map((p) => point(p.x, p.y)).join(" ")}" class="measured-ground"/>` : ""}
+    ${ground.complete ? `<polygon points="${ground.polygon.map((p) => point(p.x, p.y)).join(" ")}" class="measured-ground${ground.area === null ? " invalid-ground" : ""}"/>` : ""}
     ${state.locus ? `<ellipse cx="${X((m.anchor + m.auxiliary) / 2)}" cy="${Y(0)}" rx="${ellipseA * FIELD_SCALE}" ry="${ellipseB * FIELD_SCALE}" class="grip-locus"/>` : ""}
     <path d="M${point(m.anchor, 0)}L${grip}L${point(m.auxiliary, 0)}" class="field-cord" data-shape="taut-cord"/>
     ${m.angle !== null && Math.abs(m.angle - 90) < 1e-8 ? `<path d="M${point(m.anchor + m.direction * 1.5, 0)}L${point(m.anchor + m.direction * 1.5, m.side * 1.5)}L${point(m.anchor, m.side * 1.5)}" class="dimension"/>` : ""}

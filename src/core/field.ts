@@ -139,7 +139,26 @@ function cross(a: Point, b: Point, c: Point): number {
   return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
 }
 function crosses(a: Point, b: Point, c: Point, d: Point): boolean {
-  return cross(a, b, c) * cross(a, b, d) < -1e-10 && cross(c, d, a) * cross(c, d, b) < -1e-10;
+  const epsilon = 1e-10;
+  const sign = (value: number) => (Math.abs(value) <= epsilon ? 0 : Math.sign(value));
+  const on = (p: Point, q: Point, r: Point) =>
+    r.x >= Math.min(p.x, q.x) - epsilon &&
+    r.x <= Math.max(p.x, q.x) + epsilon &&
+    r.y >= Math.min(p.y, q.y) - epsilon &&
+    r.y <= Math.max(p.y, q.y) + epsilon;
+  const abC = sign(cross(a, b, c));
+  const abD = sign(cross(a, b, d));
+  const cdA = sign(cross(c, d, a));
+  const cdB = sign(cross(c, d, b));
+  // A boundary with a touching or overlapping opposite edge is not simple.
+  // Strict crossings alone miss a cord boundary that doubles back on itself.
+  return (
+    (abC * abD < 0 && cdA * cdB < 0) ||
+    (abC === 0 && on(a, b, c)) ||
+    (abD === 0 && on(a, b, d)) ||
+    (cdA === 0 && on(c, d, a)) ||
+    (cdB === 0 && on(c, d, b))
+  );
 }
 
 export function fieldGround(placed: FieldState["placed"]) {

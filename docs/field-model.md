@@ -79,8 +79,27 @@ Each placed peg retains a method, grip and stake choice independently.
 Its coordinates are recomputed from that record. Changing the proposed grip
 does not move retained pegs. URL input never supplies trusted coordinates;
 malformed, duplicate, unreachable or truncated records reset the entire layout
-with an explanation. Four pegs are needed for an area. A crossed or collapsed
+with an explanation. Four pegs are needed for an area. A crossed, overlapping or collapsed
 boundary has no simple enclosed-ground area assigned.
+
+## When a boundary doubles back
+
+The placed boundary is followed in order WN, EN, ES, WS. Opposite segments
+must not cross, touch or overlap. A shoelace sum alone does not establish that
+this is a simple enclosure. For example, valid settings can place these pegs:
+
+```text
+WN(-9,0) -> EN(45,0) -> ES(12,0) -> WS(0,-15) -> WN
+             east       west
+```
+
+The EN-to-ES segment retraces part of WN-to-EN. The signed shoelace result
+is -157.5, but it is not reported as the area of a simple four-peg ground.
+Inclusive segment intersection checks catch this case, as well as crossings
+that pass strictly through an edge. Coordinate comparisons use a numerical
+cross-product tolerance of 1e-10 within this bounded source-unit model.
+Invalid boundaries are drawn without a filled region, using a rust dashed
+outline, and the area is withheld in the interface, CSV and saved reading.
 
 ## What can be learned
 
