@@ -1,0 +1,233 @@
+.cord-errors {
+  border-block: 2px solid var(--ink);
+  padding-block: 40px 30px;
+  margin-block: 35px;
+}
+.error-jump {
+  margin-block: 20px;
+}
+.error-opening {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 55px;
+}
+.error-opening h2 {
+  font:
+    400 clamp(36px, 4vw, 58px) / 1.03 Newsreader,
+    Georgia,
+    serif;
+  letter-spacing: -0.02em;
+}
+.error-opening p {
+  max-width: 65ch;
+}
+.error-bench {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 45px;
+  align-items: center;
+}
+.error-settings label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
+.error-settings select {
+  width: 100%;
+  padding: 10px 8px;
+  margin: 10px 0 18px;
+  border: 1px solid var(--line);
+  background: var(--chalk);
+  color: var(--ink);
+}
+.error-settings output {
+  display: block;
+  font-size: 22px;
+  margin-block: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.error-settings input[type="range"] {
+  width: 100%;
+  accent-color: var(--rust);
+  min-height: 36px;
+  margin-block: 0 12px;
+}
+.error-settings .recipe-copy {
+  border-top: 0;
+  padding-top: 0;
+}
+.error-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.error-presets button {
+  font-size: 13px;
+  min-height: 44px;
+}
+.error-figure {
+  padding: 15px 20px;
+  background: var(--board);
+}
+.cord-error-plot {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: auto;
+}
+.cord-error-plot text {
+  font:
+    15px Plex,
+    sans-serif;
+  fill: #173c51;
+}
+.error-boundary {
+  fill: none;
+  stroke: #9cb3bf;
+  stroke-dasharray: 3 5;
+}
+.error-axis {
+  fill: none;
+  stroke: #9cb3bf;
+  stroke-width: 1;
+}
+.error-target {
+  fill: none;
+  stroke: #173c51;
+  stroke-width: 2.5;
+}
+.error-symbol {
+  fill: #fbfcf9;
+  stroke-width: 2.5;
+}
+.error-symbol-0 {
+  stroke: #173c51;
+}
+.error-symbol-1 {
+  stroke: #a6462c;
+}
+.error-symbol-2 {
+  stroke: #226579;
+}
+.error-symbol-3 {
+  stroke: #684d82;
+}
+.error-leader {
+  fill: none;
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+.error-figure p {
+  margin-block: 8px;
+}
+.error-symbol-key {
+  font-size: 13px;
+}
+.cord-errors table,
+.cord-error-study table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.cord-errors td,
+.cord-errors th,
+.cord-error-study td,
+.cord-error-study th {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 9px;
+  border-bottom: 1px solid #9cb3bf;
+  font-variant-numeric: tabular-nums;
+}
+.cord-errors td,
+.cord-error-study td {
+  min-width: 85px;
+}
+.cord-errors th:first-child,
+.cord-error-study th:first-child {
+  min-width: 170px;
+}
+.cord-errors th small,
+.cord-error-study th small {
+  display: block;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.cord-errors caption,
+.cord-error-study caption {
+  text-align: left;
+  margin-block: 14px;
+}
+.error-assumptions {
+  margin-block: 24px;
+  max-width: 80ch;
+  font-size: 14px;
+}
+.error-assumptions summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.error-keep {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px 24px;
+}
+.error-keep p {
+  flex-basis: 100%;
+  margin-bottom: 0;
+}
+.cord-error-study .table-scroll {
+  overflow: auto;
+}
+@media (max-width: 760px) {
+  .cord-error-plot text {
+    font-size: 20px;
+  }
+  .error-opening,
+  .error-bench {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .error-opening h2 {
+    margin-bottom: 4px;
+  }
+  .error-figure {
+    padding: 8px;
+  }
+  .error-keep {
+    display: grid;
+  }
+}
+@media print {
+  .error-settings,
+  .error-keep,
+  .error-jump {
+    display: none;
+  }
+  .error-bench {
+    display: block;
+  }
+  .error-figure {
+    max-width: 110mm;
+    margin: auto;
+  }
+  .cord-error-study table {
+    break-inside: avoid;
+    font-size: 9px;
+  }
+  .cord-error-study td,
+  .cord-error-study th {
+    min-width: 0;
+    padding: 6px 4px;
+  }
+  .cord-error-study .table-scroll {
+    overflow: visible;
+  }
+  .cord-error-plot {
+    max-width: 110mm;
+    break-inside: avoid;
+  }
+}
