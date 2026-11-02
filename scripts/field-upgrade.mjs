@@ -144,6 +144,7 @@ for (const [engine, launcher] of [
         await field.locator("#field-plan svg").waitFor();
         assert.match(await field.locator("#peg-error").textContent(), /Position \(36, 12\)/);
         await field.locator('[data-field-page="11"]').click();
+        await field.locator("#field-source-image").waitFor({ state: "visible" });
         await field.locator("#field-source-image").evaluate((img) => img.decode());
         const pending = field.waitForEvent("download");
         await field.locator("#field-save").click();

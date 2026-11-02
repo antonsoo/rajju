@@ -172,6 +172,7 @@ for (const [engine, launcher] of [
         assert.match(csv.bytes.toString(), /"placed","en","one","15","15"/);
         for (const p of [9, 10, 11, 12]) {
           await page.locator(`[data-field-page="${p}"]`).click();
+          await page.locator("#field-source-image").waitFor({ state: "visible" });
           await page.locator("#field-source-image").evaluate((img) => img.decode());
           assert.match(
             await page.locator("#field-source-image").getAttribute("alt"),
@@ -179,6 +180,7 @@ for (const [engine, launcher] of [
           );
         }
         await page.locator('[data-field-page="10"]').click();
+        await page.locator("#field-source-image").waitFor({ state: "visible" });
         await slider(page, "#field-zoom", 300);
         await page.locator("#field-source-pan").focus();
         await page.keyboard.press("ArrowRight");
@@ -301,6 +303,7 @@ for (const [engine, launcher] of [
         await page.locator(".masthead a").filter({ hasText: "Lay out a ground" }).click();
         await page.locator("#field-plan svg").waitFor();
         await page.locator('[data-field-page="11"]').click();
+        await page.locator("#field-source-image").waitFor({ state: "visible" });
         await page.locator("#field-source-image").evaluate((img) => img.decode());
         const offlineReading = await download(
           page,

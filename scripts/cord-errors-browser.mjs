@@ -191,6 +191,7 @@ for (const [engine, launcher] of [
         assert.equal(new URL(page.url()).searchParams.get("placed"), placed);
         await page.locator("#error-source-link").click();
         assert.match(await page.locator("#field-scan-title").textContent(), /11/);
+        await page.locator("#field-source-image").waitFor({ state: "visible" });
         await page.locator("#field-source-image").evaluate((img) => img.decode());
         const scan = await page.locator("#field-source-image").evaluate(async (img) => {
           const bytes = await fetch(img.src).then((r) => r.arrayBuffer());

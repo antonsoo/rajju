@@ -298,6 +298,7 @@ for (const [engine, launcher] of [
         assert.match(await page.locator("#word-note").textContent(), /eastward line/);
         assert.equal(await page.locator("#main-drawing").getAttribute("data-highlight"), "east");
         assert.equal(await page.evaluate(() => document.activeElement?.dataset.word), "east");
+        await page.locator("#source-image").waitFor({ state: "visible" });
         await page.locator("#zoom").focus();
         await page.keyboard.press("End");
         assert.equal(

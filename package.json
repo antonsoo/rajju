@@ -38,7 +38,8 @@
     "verify:field": "node --import tsx scripts/field-cases.ts | python3 scripts/field-oracle.py",
     "test:field": "node scripts/field-review.mjs",
     "verify:cord-errors": "node --import tsx scripts/cord-error-cases.ts | python3 scripts/cord-error-oracle.py",
-    "test:cord-errors": "node scripts/cord-errors-browser.mjs"
+    "test:cord-errors": "node scripts/cord-errors-browser.mjs",
+    "test:audit": "node scripts/readiness-audit.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
