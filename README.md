@@ -3,7 +3,7 @@
 **A circle too large. A return almost perfect.** Explore Indian cord geometry
 through a working construction, Sanskrit instructions and the printed evidence.
 
-[Live workshop](https://antonsoo.github.io/rajju/) · [MIT license](LICENSE) · [Source decisions](THIRD_PARTY.md) · [Mathematical model](docs/model.md)
+[Live workshop](https://antonsoo.github.io/rajju/) · [PolyForm Noncommercial license](LICENSE) · [Source decisions](THIRD_PARTY.md) · [Mathematical model](docs/model.md)
 
 Also: [**Hold fifteen. Stake twelve.**](https://antonsoo.github.io/rajju/field.html)
 Lay out Āpastamba's ground with a marked cord and keep the four pegs.
@@ -207,8 +207,10 @@ remain online resources; the bundled pages belong to the offline edition.
 
 ## Contributing and license
 
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`b5d60d5`](https://github.com/antonsoo/rajju/tree/b5d60d5) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
 Corrections tied to an exact printed passage, or a reproducible geometric
 counterexample, are especially useful. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Code, new diagrams and English notes: [MIT](LICENSE), Anthony Mercer, 2026.
+Code, new diagrams and English notes: [PolyForm Noncommercial 1.0.0](LICENSE), Anthony Mercer, 2026.
 Historical pages are public domain; fonts retain their [separate notices](THIRD_PARTY.md).

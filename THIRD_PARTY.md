@@ -12,7 +12,7 @@ critical text of the entire Baudhāyana Śulbasūtra.
   `ulvastras00ktgoog`, metadata marked `NOT_IN_COPYRIGHT`.
 
 The historical Sanskrit, 1875 English and complete page renderings are public
-domain. The app's new English translations, grammar notes and diagrams are MIT.
+domain. The app's new English translations, grammar notes and diagrams are PolyForm Noncommercial.
 No modern photograph or modern critical edition is redistributed.
 
 | Printed page | PDF page, one-based | What the app uses                                                           |
