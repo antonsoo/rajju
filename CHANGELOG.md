@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Verify source images before display, reject obsolete source reads, and expose
+  retry/cancel actions for verified portable readings.
+- Verify saved bytes, repair missing/corrupt files, propagate status between
+  rooms, and preserve work through worker replacement and stalled navigation.
+- Reject four-peg boundaries that overlap or touch themselves before assigning
+  an area; draw invalid outlines without a filled region.
+- Carry the full code license in saved HTML and the terms URL and required
+  notice in CSV/SVG; retain the same license in the offline edition.
+
 - Compare all four source cord procedures with independently chosen near and
   return length errors, magnified peg displacements, and explicit unreachable
   and collinear outcomes. Keep the source and modern assumptions separate.

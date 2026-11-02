@@ -171,6 +171,25 @@ Inspect the actual [illustrated field reading](examples/field-reading.html.gz)
 [retained peg CSV](examples/field-pegs.csv) and [paper cord template](examples/paper-cord.svg).
 The [field review](docs/field-review.md) records the source, browser and publication evidence.
 
+## Source pages and damaged saved editions
+
+A page is checked against its expected length and SHA-256 before the viewer
+shows it or opens its full image. A substituted page stays hidden, with a retry
+action beside its caption. Changing pages cancels the previous read.
+
+The footer's **Check & repair offline edition** action checks the actual saved
+bytes and replaces missing or damaged files while keeping the experiment.
+Other open rooms receive the result. A valid slow transfer can continue while
+you read; a stalled body does not leave an export permanently disabled.
+**Cancel saving** stops the download without discarding your construction.
+Saved HTML includes the complete code and font licenses; CSV and SVG files
+retain the license URL and required notice.
+
+An enclosure check also rejects a boundary that doubles back along an edge,
+even when its shoelace sum is nonzero. See the [operable counterexample and
+audit](docs/readiness-audit.md#an-area-that-was-not-an-enclosure), with retained
+before/after evidence, source checks and browser results.
+
 ## How it works and how it was checked
 
 Pure geometry, rational arithmetic and URL validation live in `src/core/`.

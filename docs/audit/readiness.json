@@ -1,0 +1,235 @@
+{
+  "readiness": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "state": "?nearerr=10&placed=wn,one,1500,mark",
+      "usableModuleHeaders": {
+        "type": "text/javascript",
+        "encoding": null
+      },
+      "overlappingBoundaryAreaWithheld": true,
+      "broken": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": false,
+        "missing": ["/rajju/sources/thibaut-12.jpg"],
+        "damaged": ["/rajju/sources/thibaut-11.jpg"]
+      },
+      "recovered": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "navigations": [
+        {
+          "mode": "nav503",
+          "milliseconds": 109
+        },
+        {
+          "mode": "navHeaders",
+          "milliseconds": 2080
+        },
+        {
+          "mode": "navBody",
+          "milliseconds": 2075
+        },
+        {
+          "mode": "navStale",
+          "milliseconds": 75
+        },
+        {
+          "mode": "continuous slow repair with foreground source read",
+          "milliseconds": 28798
+        }
+      ],
+      "axeViolations": 0,
+      "offlineReadingSha256": "95645840ba5b2aae8b36951844fe70c478bf02c3a557890d114a337590f666ce",
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "state": "?nearerr=10&placed=wn,one,1500,mark",
+      "usableModuleHeaders": {
+        "type": "text/javascript",
+        "encoding": null
+      },
+      "overlappingBoundaryAreaWithheld": true,
+      "broken": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": false,
+        "missing": ["/rajju/sources/thibaut-12.jpg"],
+        "damaged": ["/rajju/sources/thibaut-11.jpg"]
+      },
+      "recovered": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "navigations": [
+        {
+          "mode": "nav503",
+          "milliseconds": 64
+        },
+        {
+          "mode": "navHeaders",
+          "milliseconds": 2068
+        },
+        {
+          "mode": "navBody",
+          "milliseconds": 2075
+        },
+        {
+          "mode": "navStale",
+          "milliseconds": 71
+        }
+      ],
+      "axeViolations": 0,
+      "offlineReadingSha256": "8fd7ae1a4970322e555a90bc765cb5d9dd8dd77ec501122b8bed686eeae322a3",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "state": "?nearerr=10&placed=wn,one,1500,mark",
+      "usableModuleHeaders": {
+        "type": "text/javascript",
+        "encoding": null
+      },
+      "overlappingBoundaryAreaWithheld": true,
+      "broken": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": false,
+        "missing": ["/rajju/sources/thibaut-12.jpg"],
+        "damaged": ["/rajju/sources/thibaut-11.jpg"]
+      },
+      "recovered": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "navigations": [
+        {
+          "mode": "nav503",
+          "milliseconds": 87
+        },
+        {
+          "mode": "navHeaders",
+          "milliseconds": 2133
+        },
+        {
+          "mode": "navBody",
+          "milliseconds": 2064
+        },
+        {
+          "mode": "navStale",
+          "milliseconds": 70
+        },
+        {
+          "mode": "continuous slow repair with foreground source read",
+          "milliseconds": 28843
+        }
+      ],
+      "axeViolations": 0,
+      "offlineReadingSha256": "e11322a6398666ed31de02fd1da63b1cf0f2a6ee51338565a24d05fa61d37f14",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "state": "?nearerr=10&placed=wn,one,1500,mark",
+      "usableModuleHeaders": {
+        "type": "text/javascript",
+        "encoding": null
+      },
+      "overlappingBoundaryAreaWithheld": true,
+      "broken": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": false,
+        "missing": ["/rajju/sources/thibaut-12.jpg"],
+        "damaged": ["/rajju/sources/thibaut-11.jpg"]
+      },
+      "recovered": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "navigations": [
+        {
+          "mode": "nav503",
+          "milliseconds": 65
+        },
+        {
+          "mode": "navHeaders",
+          "milliseconds": 2298
+        },
+        {
+          "mode": "navBody",
+          "milliseconds": 2078
+        },
+        {
+          "mode": "navStale",
+          "milliseconds": 75
+        }
+      ],
+      "axeViolations": 0,
+      "offlineReadingSha256": "c118526d728e4fa871cfdc982d839dd7b13dbc9c46b2f820510a8e3973f87a55",
+      "errors": []
+    }
+  ],
+  "sources": [
+    {
+      "engine": "chromium",
+      "room": "field.html",
+      "substitutedPageRefused": true,
+      "retryVerified": true,
+      "supersededPageCannotWin": true,
+      "cancellationWithoutDownload": true,
+      "retryReadingSha256": "64a9991581b2b66a7543e881f12a7e1bb117c2519c85d9cd6f964b186d75bed8",
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "room": "index.html",
+      "substitutedPageRefused": true,
+      "retryVerified": true,
+      "supersededPageCannotWin": false,
+      "cancellationWithoutDownload": true,
+      "retryReadingSha256": "16233a1de6dbec3460035b805cfe96eceaa72883baf98ded015a27796a5c62f9",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "room": "field.html",
+      "substitutedPageRefused": true,
+      "retryVerified": true,
+      "supersededPageCannotWin": true,
+      "cancellationWithoutDownload": true,
+      "retryReadingSha256": "caaac04d76f01920d04b55b9758536ec29622fa33d21a27d75b4d226571ef0c8",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "room": "index.html",
+      "substitutedPageRefused": true,
+      "retryVerified": true,
+      "supersededPageCannotWin": false,
+      "cancellationWithoutDownload": true,
+      "retryReadingSha256": "3c6e4ecb3fc0dc73d90b8fb0d5d67e95ae17759d2396b2af3f7186209afff19c",
+      "errors": []
+    }
+  ],
+  "scope": "Local production build; response faults and cache mutations are explicit synthetic audit conditions."
+}

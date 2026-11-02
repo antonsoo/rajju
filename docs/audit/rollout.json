@@ -1,0 +1,49 @@
+{
+  "scope": "Synthetic next-edition marker; same geometry and UI, different build identity",
+  "rows": [
+    {
+      "engine": "chromium",
+      "oldEdition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+      "syntheticNextEdition": "47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa",
+      "duringRepairCaches": [
+        "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "rajju-47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa"
+      ],
+      "lateInspection": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "finalCaches": ["rajju-47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa"],
+      "handoffStatus": "A different offline edition controls this page. Keep your layout link, then reload online. Check & repair offline edition",
+      "syntheticOldWorkerSuccessIgnored": true,
+      "queryPreserved": true,
+      "workPreserved": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "oldEdition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+      "syntheticNextEdition": "47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa",
+      "duringRepairCaches": [
+        "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "rajju-47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa"
+      ],
+      "lateInspection": {
+        "type": "RAJJU_EDITION",
+        "edition": "464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+        "complete": true,
+        "missing": [],
+        "damaged": []
+      },
+      "finalCaches": ["rajju-47b01992679e00ed16f87771cb16ed3f980d6d81e8fe68bb31680b9ac65388fa"],
+      "handoffStatus": "A different offline edition controls this page. Keep your layout link, then reload online. Check & repair offline edition",
+      "syntheticOldWorkerSuccessIgnored": true,
+      "queryPreserved": true,
+      "workPreserved": true,
+      "errors": []
+    }
+  ]
+}

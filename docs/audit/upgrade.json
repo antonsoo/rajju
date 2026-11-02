@@ -1,0 +1,46 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "oldCache": "rajju-0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+    "oldFileCount": 28,
+    "pendingOrRefused": "Preparing offline reading… Check & repair offline edition",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+    "newFileCount": 29,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "chromium",
+    "scenario": "substituted",
+    "oldCache": "rajju-0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+    "oldFileCount": 28,
+    "pendingOrRefused": "A different offline edition controls this page. Keep your layout link, then reload online. Check & repair offline edition",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+    "newFileCount": 29,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "oldCache": "rajju-0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+    "oldFileCount": 28,
+    "pendingOrRefused": "Preparing offline reading… Check & repair offline edition",
+    "oldPageAfterActivation": "Finishing the offline installation…",
+    "newCache": "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+    "newFileCount": 29,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  },
+  {
+    "engine": "firefox",
+    "scenario": "substituted",
+    "oldCache": "rajju-0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+    "oldFileCount": 28,
+    "pendingOrRefused": "A different offline edition controls this page. Keep your layout link, then reload online. Check & repair offline edition",
+    "oldPageAfterActivation": "A different offline edition is saved. Reload online to finish updating.",
+    "newCache": "rajju-464b37a0c46d4faac80b8ac2ebcaa50dde18c6c43bd3648d21fb89340c9dd424",
+    "newFileCount": 29,
+    "offline": "both rooms reload, new scan decodes, complete field reading downloads after origin closes"
+  }
+]

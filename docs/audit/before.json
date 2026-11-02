@@ -1,0 +1,60 @@
+[
+  {
+    "engine": "chromium",
+    "corruptedInspection": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": true
+    },
+    "wrongSourceDisplayed": true,
+    "displayed": {
+      "src": "/rajju/sources/thibaut-11.jpg",
+      "caption": "Thibaut · printed page 11",
+      "width": 1432,
+      "sha256": "3d60fc2cc22196bce387cbdbd862be41de644d1af29177bef20e7c748475a920"
+    },
+    "missingInspection": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": false
+    },
+    "statusAfterReload": "A different offline edition is saved. Reload online to finish updating.",
+    "otherTabStatus": "Reading & source saved offline",
+    "secondReload": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": false
+    },
+    "repairControls": 0,
+    "byteCorrectModuleWithWrongMimeRendered": false
+  },
+  {
+    "engine": "firefox",
+    "corruptedInspection": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": true
+    },
+    "wrongSourceDisplayed": true,
+    "displayed": {
+      "src": "/rajju/sources/thibaut-11.jpg",
+      "caption": "Thibaut · printed page 11",
+      "width": 1432,
+      "sha256": "3d60fc2cc22196bce387cbdbd862be41de644d1af29177bef20e7c748475a920"
+    },
+    "missingInspection": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": false
+    },
+    "statusAfterReload": "A different offline edition is saved. Reload online to finish updating.",
+    "otherTabStatus": "Reading & source saved offline",
+    "secondReload": {
+      "type": "RAJJU_EDITION",
+      "edition": "0f15646e2dfe48adf6558146d15dd03892c41dbc984fc0ca8a3f289651cf02a5",
+      "complete": false
+    },
+    "repairControls": 0,
+    "byteCorrectModuleWithWrongMimeRendered": false
+  }
+]

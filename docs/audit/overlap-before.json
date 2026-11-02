@@ -1,0 +1,72 @@
+{
+  "placed": {
+    "wn": {
+      "method": "one",
+      "grip": 900,
+      "stake": "grip"
+    },
+    "en": {
+      "method": "one",
+      "grip": 900,
+      "stake": "grip"
+    },
+    "es": {
+      "method": "345",
+      "grip": 2400,
+      "stake": "grip"
+    },
+    "ws": {
+      "method": "one",
+      "grip": 1500,
+      "stake": "mark"
+    }
+  },
+  "coordinates": {
+    "wn": {
+      "x": -9,
+      "y": 0
+    },
+    "en": {
+      "x": 45,
+      "y": 0
+    },
+    "es": {
+      "x": 12,
+      "y": 0
+    },
+    "ws": {
+      "x": 0,
+      "y": -15
+    }
+  },
+  "ground": {
+    "complete": true,
+    "count": 4,
+    "polygon": [
+      {
+        "x": -9,
+        "y": 0
+      },
+      {
+        "x": 45,
+        "y": 0
+      },
+      {
+        "x": 12,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": -15
+      }
+    ],
+    "crossed": false,
+    "degenerate": false,
+    "area": 157.5,
+    "algebraicArea": -157.5,
+    "targetArea": 972,
+    "westWidth": 17.4928556845359,
+    "eastWidth": 33,
+    "allOnTarget": false
+  }
+}
