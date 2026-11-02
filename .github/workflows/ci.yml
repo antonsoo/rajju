@@ -18,9 +18,12 @@ jobs:
       - run: npm run check
       - run: npm run verify:geometry
       - run: npm run verify:field
+      - run: npm run verify:cord-errors
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/rajju-browser
       - run: python3 scripts/geometry-oracle.py --rendered < /tmp/rajju-browser/browser.json
       - run: npm run test:offline
       - run: npm run test:field -- /tmp/rajju-field
       - run: node --import tsx scripts/field-cases.ts | python3 scripts/field-oracle.py /tmp/rajju-field/review.json
+      - run: npm run test:cord-errors -- /tmp/rajju-cord-errors
+      - run: python3 scripts/cord-error-oracle.py /tmp/rajju-cord-errors/receipt.json
