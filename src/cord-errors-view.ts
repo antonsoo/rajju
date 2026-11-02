@@ -1,6 +1,7 @@
 import { type CordErrorModel, compareCordErrors } from "./core/cord-errors";
 import { CORNER_NAMES, type FieldState, METHOD_NAMES } from "./core/field";
 import { number, signed } from "./format";
+import { licensedRows } from "./license";
 
 export const CORD_ERROR_ASSUMPTIONS =
   "Modern sensitivity experiment. Each row starts from its source recipe, independently of the separately proposed and placed pegs. Both anchors stay exact. Add the same signed length errors to each recipe’s near and return segments. Stake the grip except in the eastern one-cord procedure, where the separate twelve mark stays exact. A positive error makes a segment longer. These are chosen errors, not measurements of ancient cords, a probability distribution or a ranking of historical practice.";
@@ -70,7 +71,7 @@ export function cordErrorsCsv(state: FieldState): string {
     "separate_exact_twelve_mark",
     "assumptions",
   ];
-  return `${[
+  return `${licensedRows([
     header,
     ...compareCordErrors(state.corner, state).map((m) => [
       "modern_segment_errors",
@@ -93,7 +94,7 @@ export function cordErrorsCsv(state: FieldState): string {
       m.separateMark,
       CORD_ERROR_ASSUMPTIONS,
     ]),
-  ]
+  ])
     .map((r) => r.map(quote).join(","))
     .join("\r\n")}\r\n`;
 }

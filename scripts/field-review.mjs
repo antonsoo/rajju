@@ -224,6 +224,11 @@ for (const [engine, launcher] of [
           /width="186mm" height="180mm" viewBox="0 0 620 600"/,
         );
         assert.match(template.bytes.toString(), /Hold at 15; stake at 12/);
+        assert.match(template.bytes.toString(), /Required Notice: Copyright/);
+        assert.match(
+          template.bytes.toString(),
+          /polyformproject.org\/licenses\/noncommercial\/1.0.0/,
+        );
         assert.match(template.bytes.toString(), /M70,550H170/);
         const accessibility = await new AxeBuilder({ page })
           .withTags(["wcag2a", "wcag2aa", "wcag21aa"])

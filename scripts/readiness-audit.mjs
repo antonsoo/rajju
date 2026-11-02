@@ -431,6 +431,10 @@ for (const [engine, launcher] of [
         );
         assert.equal(downloads.length, 1);
         assert.ok(file.bytes.length > 1000000);
+        assert.ok(
+          file.bytes.includes(Buffer.from("Required Notice: Copyright (c) 2026 Anthony Mercer")),
+        );
+        assert.ok(file.bytes.includes(Buffer.from("## Distribution License")));
         assert.deepEqual(errors, []);
         receipt.sources.push({
           engine,

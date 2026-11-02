@@ -18,6 +18,7 @@
   },
   "rendering": "pdftoppm -scale-to 2000 -jpeg -jpegopt quality=82 -singlefile",
   "files": {
+    "LICENSE.txt": "cc1a92cbbb4cea89f6aca5df244b8a4e830565988ee70a8c7824f5a78ceb9241",
     "favicon.svg": "2aa3aa90a62b6d553ce8bcb26e3f632371d601cb405cf494981498b70bddac4a",
     "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
     "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
@@ -26,7 +27,7 @@
     "fonts/NotoSerifDevanagari.ttf": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb",
     "fonts/newsreader-OFL.txt": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
     "fonts/notoserifdevanagari-OFL.txt": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331",
-    "notices.html": "6817a5cd1f236857202a1b76b474054b86ddc1594b748c0ddfa917eb2a01e209",
+    "notices.html": "290d737289f5ed12a3b03e9f0f3d6b47da9a2e8897195160571ad00e59ccc2f1",
     "sources/thibaut-06.jpg": "7dd20632fdfac5a8a98f5c2e87df2ac1687775a1b9bfa427404ba9e78007a506",
     "sources/thibaut-07.jpg": "147dd4ebf4e35467fa3cf63f16bed14415e13ae10fec9dd6812b4a219f84044c",
     "sources/thibaut-09.jpg": "6ed2c121b4691cac85a14e5bd9b7e84c6ce8b4e3cd982e86f59d2fe88f9464f6",
