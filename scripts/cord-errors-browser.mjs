@@ -9,8 +9,9 @@ import { chromium, firefox } from "playwright";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const output = path.resolve(process.argv[2] ?? "/tmp/claude-1000/rajju-cord-errors");
+const external = process.argv[3];
 await mkdir(output, { recursive: true });
-const receipt = { cases: [], journeys: [] };
+const receipt = { base: external ?? "isolated local origins", cases: [], journeys: [] };
 const methods = ["one", "345", "51213", "81517"];
 const sha = (b) => createHash("sha256").update(b).digest("hex");
 const mime = {
@@ -99,7 +100,9 @@ for (const [engine, launcher] of [
   const browser = await launcher.launch();
   try {
     for (const width of [1440, 375]) {
-      const server = await serve();
+      const server = external
+        ? { base: external.endsWith("/") ? external : `${external}/`, close: async () => {} }
+        : await serve();
       const context = await browser.newContext({
         viewport: { width, height: 1100 },
         acceptDownloads: true,
@@ -252,7 +255,8 @@ for (const [engine, launcher] of [
         await page.waitForFunction(() =>
           document.querySelector("#field-offline").textContent.includes("saved offline"),
         );
-        await server.close();
+        if (external) await context.setOffline(true);
+        else await server.close();
         stopped = true;
         await page.reload();
         assert.equal(await page.locator("#error-near").inputValue(), "10");

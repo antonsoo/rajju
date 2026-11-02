@@ -129,8 +129,7 @@ gives the complete source-length table, coordinate derivation and limits.
 ### Same error. Different miss.
 
 The field room now compares the four procedures under the same two chosen
-segment-length errors. Start the local app, then open
-`http://127.0.0.1:4392/rajju/field.html?nearerr=10&farerr=0#cord-errors`.
+segment-length errors. Open the [live comparison](https://antonsoo.github.io/rajju/field.html?nearerr=10&farerr=0#cord-errors).
 Predict which eastern peg stays closest to the target, then compare the
 magnified displacements and individual measurements. Move the grip while
 keeping total length fixed, or make the five-unit-baseline procedure collinear
@@ -145,13 +144,13 @@ controls preserve previously placed pegs. Shared links and illustrated readings
 retain both errors, all four results and their assumptions.
 
 [Source lengths and model](docs/cord-error-model.md) ·
-[Operated review](docs/cord-error-review.md) ·
-[Actual comparison CSV](examples/cord-errors.csv) ·
-[Saved reading, gzip](examples/cord-errors-reading.html.gz) ·
-[Printed reading](examples/cord-errors-reading.pdf).
-Decompress the HTML before opening it. These new examples were saved from a
-local build; their return-to-workshop link identifies that local test origin.
-This change has not been published to the live demo.
+[Model review](docs/cord-error-review.md) ·
+[Public operation and publication](docs/audit-publication.md) ·
+[Actual public comparison CSV](examples/audit/cord-errors.csv) ·
+[Public saved reading, gzip](examples/audit/field-reading.html.gz) ·
+[Ten-page printed reading](examples/audit/field-reading.pdf).
+Decompress the HTML before opening it. These current examples were saved from
+the public edition, retain the full license and link back to the live workshop.
 
 ```sh
 npm run verify:cord-errors
