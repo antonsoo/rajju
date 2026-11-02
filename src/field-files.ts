@@ -65,7 +65,7 @@ export function fieldCsvText(state: FieldState): string {
     ground.complete && ground.area !== null
       ? `Enclosed area ${ground.area} square source units; prescribed 972; western width ${ground.westWidth}; eastern width ${ground.eastWidth}.`
       : ground.complete
-        ? "Area withheld: the boundary crosses or collapses."
+        ? "Area withheld: the boundary crosses, overlaps or collapses."
         : `Area withheld: ${ground.count} of four pegs placed.`,
   ]);
   const quote = (s: string) => `"${s.replaceAll('"', '""')}"`;
@@ -79,7 +79,7 @@ export function fieldCsvDownload(state: FieldState): void {
   );
 }
 
-export async function fieldStudyDownload(state: FieldState): Promise<void> {
+export async function fieldStudyDownload(state: FieldState, signal?: AbortSignal): Promise<void> {
   const paths = [
     ...FIELD_PAGES.map((p) => `sources/thibaut-${String(p).padStart(2, "0")}.jpg`),
     "fonts/Newsreader.ttf",
@@ -90,8 +90,11 @@ export async function fieldStudyDownload(state: FieldState): Promise<void> {
     "fonts/IBMPlex-OFL.txt",
   ];
   const assets = new Map(
-    await Promise.all(paths.map(async (path) => [path, await verifiedAsset(path)] as const)),
+    await Promise.all(
+      paths.map(async (path) => [path, await verifiedAsset(path, signal)] as const),
+    ),
   );
+  signal?.throwIfAborted();
   const data = (path: string, mime: string) => {
     const bytes = assets.get(path);
     if (!bytes) throw new Error(`The field reading is missing ${path}.`);
@@ -112,7 +115,7 @@ export async function fieldStudyDownload(state: FieldState): Promise<void> {
   const verdict = !ground.complete
     ? `${ground.count} of four pegs placed. No area is assigned to an incomplete boundary.`
     : ground.area === null
-      ? "The boundary crosses or collapses. No simple enclosed-ground area is assigned."
+      ? "The boundary crosses, overlaps or collapses. No simple enclosed-ground area is assigned."
       : `The enclosed area is ${number(ground.area, 9)} square source units, ${signed((ground.area / 972 - 1) * 100, 9)}% against the prescribed 972. The western width is ${number(ground.westWidth, 9)}; the eastern width is ${number(ground.eastWidth, 9)}.`;
   const table = CORNERS.map((c) => {
     const setting = state.placed[c];
@@ -134,6 +137,7 @@ export async function fieldStudyDownload(state: FieldState): Promise<void> {
   const link = new URL(location.href);
   link.search = serializeField(state);
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src data:; base-uri 'none'; form-action 'none'"><title>Rajju — Hold fifteen. Stake twelve.</title><style>${fonts}${STUDY_CSS}${ink}${errorInk}.field-plate{max-width:650px}.tag{font-size:12px}.point-label{font-size:15px}@media print{.field-plate{max-width:145mm;break-inside:avoid}.source-page img{max-height:232mm}}</style></head><body><header><p>RAJJU · <span lang="sa">रज्जु</span> · geometry by the cord</p><h1>Hold fifteen. Stake twelve.</h1><p>Āpastamba’s ground: 36 units eastward, 30 wide at the west and 24 at the east. Source units are used consistently; no conversion to a modern physical length is inferred.</p><p class="small">Edition ${esc(__RAJJU_EDITION__)}. <a href="${esc(link.href)}">Open this retained layout online</a>. This file needs no network to read or print.</p></header><main><section><h2>The proposed ${CORNER_NAMES[state.corner].toLowerCase()} peg</h2><p>${METHOD_NAMES[state.method]}. Fix the cord at ${m.west ? "W" : "E"} and ${m.baseline} units inward. Cord length ${m.loop}. Hold at ${number(m.first, 2)}; stake at ${number(m.mark, 2)}. These distances are measured along the cord from the selected end.</p><div class="plate field-plate">${fieldDrawing(state, "saved-field")}</div><p>The rust ring proposes a peg; the dark dot is the grip. Blue dots retain placed pegs. Dashed outline: prescribed ground.${state.locus ? " The dotted ellipse shows all taut grip positions; this is modern analysis." : ""}</p><p>Proposed position (${number(m.peg.x, 9)}, ${number(m.peg.y, 9)}); target (${m.target.x}, ${m.target.y}). Distance from target ${number(m.error, 9)}. Grip-to-baseline angle ${m.angle === null ? "is collinear; there is no right angle" : `is ${number(m.angle, 9)}°`}. The angle is measured at the centre-line end, not at a sloping corner of the final trapezoid.</p><div class="ruler">${cordRuler(state, "saved-unbent")}</div><p>In the eastern one-cord operation, a grip at fifteen establishes the perpendicular. The corner peg goes at twelve on the same piece of cord. Putting the peg at the grip gives an eastern width of thirty, while the prescribed width is twenty-four.</p></section>${cordErrorsStudy(state)}<section><h2>The pegs you retained</h2><p>${verdict}</p><table><thead><tr><th>Corner</th><th>Method and cord marks</th><th>Position (east, north)</th><th>Distance from target</th></tr></thead><tbody>${table}</tbody></table><p>Changing the proposed grip does not move an already placed peg. Each placed peg retains its own method, grip and stake choice. Coordinates are recomputed from those choices.</p><p class="download-link"><a download="rajju-field-pegs.csv" href="data:text/csv;charset=utf-8,${esc(encodeURIComponent(fieldCsvText(state)))}">Save these exact CSV bytes</a></p></section><section><h2>Read the instructions</h2><p>The western corners are śroṇī, haunches; the eastern ones aṃsa, shoulders. The following excerpts are from printed p. 9, with normalized Unicode, spacing and punctuation. Brackets show supplied English.</p>${readings}</section><section><h2>Sources and limits</h2><p>${FIELD_LIMITS}</p><p>George Thibaut, <cite>The Śulvasūtras</cite> (1875), pp. 9–12. <a href="https://archive.org/details/ulvastras00ktgoog">Complete source volume</a>. The printed direction discrepancy on p. 10 is retained in the page note. The optional modern ellipse and coordinate calculations do not establish the original derivation.</p><p>The four JPEGs, fonts and font licenses were checked against the edition’s SHA-256 identities before saving. Historical source print is public domain; new drawings, English notes and code are PolyForm Noncommercial, Anthony Mercer, 2026.</p></section>${scans}<details class="licenses"><summary>Embedded font licenses</summary>${licenses}</details></main></body></html>`;
+  signal?.throwIfAborted();
   download(new Blob([html], { type: "text/html;charset=utf-8" }), "rajju-field-reading.html");
 }
 

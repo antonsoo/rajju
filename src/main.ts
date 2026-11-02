@@ -20,6 +20,8 @@ import {
 import { downloadCsv, saveStudy } from "./files";
 import { escapeHtml, number, signed } from "./format";
 import { offlineStatus } from "./offline";
+import { readingSave } from "./save-reading";
+import { SourceViewer } from "./source-viewer";
 import "./style.css";
 
 function element<T extends HTMLElement>(id: string): T {
@@ -77,7 +79,7 @@ element("app").innerHTML = `
     </section>
     <section class="error-section" aria-labelledby="error-title"><div><p class="eyebrow">Look closer</p><h2 id="error-title"></h2><p id="error-copy"></p></div><div id="error-drawing" class="error-ruler"></div></section>
     <section class="numbers-section" aria-labelledby="numbers-title"><details><summary id="numbers-title">Keep the numerical evidence</summary><div class="table-scroll"><table><caption id="table-caption"></caption><thead><tr><th scope="col">Quantity</th><th scope="col">Value</th><th scope="col">What it compares</th></tr></thead><tbody id="numbers-body"></tbody></table></div></details>
-      <div class="actions"><button id="share" type="button">Copy this construction’s link</button><button id="csv" type="button">Download measurements</button><button id="save" type="button" class="primary">Save illustrated reading</button></div><p id="file-status" role="status" class="small"></p><p id="share-fallback" hidden><label for="share-url">Copy this link</label><input id="share-url" type="text" readonly></p>
+      <div class="actions"><button id="share" type="button">Copy this construction’s link</button><button id="csv" type="button">Download measurements</button><button id="cancel-save" type="button" hidden>Cancel saving</button><button id="save" type="button" class="primary">Save illustrated reading</button></div><p id="file-status" role="status" class="small"></p><p id="share-fallback" hidden><label for="share-url">Copy this link</label><input id="share-url" type="text" readonly></p>
     </section>
     <section id="reading" class="reading-section" aria-labelledby="reading-title"><div class="section-opening"><div><p class="eyebrow">Read the instruction</p><h2 id="reading-title">The words that move the cord.</h2></div><p>The Sanskrit is a normalized reading of the 1875 print, with IAST transliteration and a new English translation. Select a word for its work in the sentence. No Sanskrit is assumed.</p></div>
       <div class="reader"><div class="passage-column"><label for="passage">Passage</label><select id="passage">${Object.entries(
@@ -87,7 +89,7 @@ element("app").innerHTML = `
         .join(
           "",
         )}</select><div id="passage-text"></div><div id="word-buttons" class="word-buttons" aria-label="Word notes"></div><div id="word-note" class="word-note" aria-live="polite"></div></div>
-      <div class="source-column"><div class="source-heading"><h3 id="scan-title"></h3><a id="open-scan" target="_blank" rel="noreferrer">Open full image ↗</a></div><div class="page-buttons" aria-label="Printed source pages">${SOURCE_PAGES.map((p) => `<button type="button" data-page="${p}">p. ${p}</button>`).join("")}</div><label class="zoom-label" for="zoom">Enlarge page <input id="zoom" type="range" min="100" max="300" step="25" value="100"></label><div id="source-pan" class="source-pan" tabindex="0" role="region" aria-label="Source page; scroll or use arrow keys to pan"><img id="source-image" alt="" width="1430" height="2000"></div><p id="source-note" class="small"></p><p class="small">George Thibaut, <cite>The Śulvasūtras</cite> (1875), Oxford copy digitized by Google. <a href="${SOURCE_URL}" target="_blank" rel="noreferrer">Complete volume and provenance ↗</a>. The full pages retain the editor’s arguments and dated judgments; those are not adopted as historical findings here.</p></div></div>
+      <div class="source-column"><div class="source-heading"><h3 id="scan-title"></h3><a id="open-scan" target="_blank" rel="noreferrer">Open full image ↗</a></div><div class="page-buttons" aria-label="Printed source pages">${SOURCE_PAGES.map((p) => `<button type="button" data-page="${p}">p. ${p}</button>`).join("")}</div><label class="zoom-label" for="zoom">Enlarge page <input id="zoom" type="range" min="100" max="300" step="25" value="100"></label><p id="source-check" class="small" role="status"></p><button id="source-retry" type="button" hidden>Retry selected page</button><div id="source-pan" class="source-pan" tabindex="0" role="region" aria-label="Source page; scroll or use arrow keys to pan"><img id="source-image" alt="" width="1430" height="2000"></div><p id="source-note" class="small"></p><p class="small">George Thibaut, <cite>The Śulvasūtras</cite> (1875), Oxford copy digitized by Google. <a href="${SOURCE_URL}" target="_blank" rel="noreferrer">Complete volume and provenance ↗</a>. The full pages retain the editor’s arguments and dated judgments; those are not adopted as historical findings here.</p></div></div>
     </section>
     <section class="context-section"><h2>Geometry for a ritual ground.</h2><div><p>The Śulbasūtras give rules for laying out ritual grounds and fire altars with cords. Preserving an area while changing its shape gives these instructions a concrete purpose. This exhibit follows a small group of rules transmitted under Baudhāyana’s name; it does not model a complete altar.</p><p>${LIMITATIONS}</p><p>The circle construction uses the geometric diagonal, √2 times the side. The separate numerical-diagonal lesson uses 577/408. They are kept distinct so that a small diagonal error cannot be mistaken for the much larger circle-area error.</p><p>Try another practical distinction in <a href="${import.meta.env.BASE_URL}field.html">Āpastamba’s ground layout: hold fifteen, stake twelve</a>. Keep four pegs, compare four cord procedures and print a small physical exercise.</p><p>Continue with <a href="https://antonsoo.github.io/seked/">Egyptian pyramid slopes</a>, <a href="https://antonsoo.github.io/stoicheia/">Euclid in Greek and Latin</a>, or <a href="https://antonsoo.github.io/gonia/">measured Greek architecture</a>.</p></div></section>
   </main><footer><span>Rajju · <span lang="sa">रज्जु</span> · cord</span><p id="offline-status" role="status">Preparing offline reading…</p><a href="https://github.com/antonsoo/rajju">Source & methods</a><span>Code & new drawings: PolyForm Noncommercial · <a href="${import.meta.env.BASE_URL}notices.html">Source & font notices</a></span></footer>
@@ -127,18 +129,24 @@ function renderWord(): void {
   element("main-drawing").dataset.highlight = word.highlight;
 }
 
-function renderSource(): void {
-  const url = `${import.meta.env.BASE_URL}sources/thibaut-${String(state.page).padStart(2, "0")}.jpg`;
-  element("scan-title").textContent = `Thibaut · printed page ${state.page}`;
-  const img = element<HTMLImageElement>("source-image");
-  if (img.getAttribute("src") !== url) {
-    img.src = url;
-    img.alt = `Complete printed page ${state.page} of George Thibaut’s The Śulvasūtras, 1875. ${SOURCE_NOTES[state.page]}`;
+const sourceViewer = new SourceViewer(
+  element<HTMLImageElement>("source-image"),
+  element<HTMLAnchorElement>("open-scan"),
+  element("source-check"),
+  element<HTMLButtonElement>("source-retry"),
+  () => {
     element<HTMLInputElement>("zoom").value = "100";
-    img.style.width = "100%";
+    element<HTMLImageElement>("source-image").style.width = "100%";
     element("source-pan").scrollTo(0, 0);
-  }
-  element<HTMLAnchorElement>("open-scan").href = url;
+  },
+);
+function renderSource(): void {
+  const path = `sources/thibaut-${String(state.page).padStart(2, "0")}.jpg`;
+  element("scan-title").textContent = `Thibaut · printed page ${state.page}`;
+  sourceViewer.show(
+    path,
+    `Complete printed page ${state.page} of George Thibaut’s The Śulvasūtras, 1875. ${SOURCE_NOTES[state.page]}`,
+  );
   element("source-note").textContent = SOURCE_NOTES[state.page] ?? "";
   for (const b of document.querySelectorAll<HTMLButtonElement>("[data-page]"))
     b.setAttribute("aria-pressed", String(Number(b.dataset.page) === state.page));
@@ -357,24 +365,14 @@ element("csv").addEventListener("click", () => {
   element("file-status").textContent =
     "Measurements downloaded. The CSV names each reference area and the chosen rule.";
 });
-element("save").addEventListener("click", async () => {
-  const button = element<HTMLButtonElement>("save");
-  button.disabled = true;
-  const snapshot = { ...state };
-  element("file-status").textContent =
-    "Preparing the reading with verified source pages and local fonts…";
-  try {
-    await saveStudy(snapshot);
-    element("file-status").textContent =
-      "Illustrated reading downloaded. It includes this construction, all nine source pages, fonts and measurements, and opens offline.";
-  } catch (error) {
-    element("file-status").textContent =
-      error instanceof Error
-        ? error.message
-        : "Reading could not be saved. Reload online and try again.";
-  } finally {
-    button.disabled = false;
-  }
+readingSave({
+  button: element<HTMLButtonElement>("save"),
+  cancel: element<HTMLButtonElement>("cancel-save"),
+  status: element("file-status"),
+  capture: () => structuredClone(state),
+  save: saveStudy,
+  success:
+    "Illustrated reading downloaded. It includes this construction, all nine source pages, fonts and measurements, and opens offline.",
 });
 element("share").addEventListener("click", async () => {
   updateHistory();
