@@ -99,7 +99,7 @@ account, not a proof stated by the ancient rule.
   No accounts, remote fonts, analytics or runtime services.
 
 Inspect an actual [saved circle reading](examples/circle-reading.html.gz), its
-[15-page PDF](examples/circle-reading.pdf), and the [measurement CSV](examples/circle-measurements.csv).
+[16-page PDF](examples/circle-reading.pdf), and the [measurement CSV](examples/circle-measurements.csv).
 The [diagonal CSV](examples/diagonal-measurements.csv) retains the exact fractions.
 These were captured from the verified public workshop. The HTML example is gzip-compressed; extract it before opening. It contains the original downloaded HTML bytes.
 
@@ -166,7 +166,7 @@ keyboard controls and origin-disabled operation in Chromium and Firefox at
 1440 px and 375 px.
 
 Inspect the actual [illustrated field reading](examples/field-reading.html.gz)
-(extract before opening), [eight-page A4 PDF](examples/field-reading.pdf),
+(extract before opening), [ten-page A4 PDF](examples/field-reading.pdf),
 [retained peg CSV](examples/field-pegs.csv) and [paper cord template](examples/paper-cord.svg).
 The [field review](docs/field-review.md) records the source, browser and publication evidence.
 

@@ -33,11 +33,11 @@ available evidence, not a claim of successful remote CI.
 
 Chromium and Firefox each operated the public site at 1440 and 375 pixels:
 
-| Workflow | Operated observations |
-| --- | --- |
-| Circle and diagonal rooms | 44 constructions, checked against the independent geometry oracle |
-| Field workshop | 80 constructions, with the separate 544-case field oracle |
-| Cord-error bench | 112 states, 448 visible result rows, 440 actual SVG endpoints and 32 downloaded CSV rows checked by the independent Python oracle |
+| Workflow                  | Operated observations                                                                                                             |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Circle and diagonal rooms | 44 constructions, checked against the independent geometry oracle                                                                 |
+| Field workshop            | 80 constructions, with the separate 544-case field oracle                                                                         |
+| Cord-error bench          | 112 states, 448 visible result rows, 440 actual SVG endpoints and 32 downloaded CSV rows checked by the independent Python oracle |
 
 Each driver checked keyboard operation, source-page identity, real native
 file downloads and operation after service-worker control with the context

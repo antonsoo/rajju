@@ -18,14 +18,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -47,14 +40,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -76,14 +62,7 @@
         "x": 36,
         "y": 15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        150,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 150, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -105,14 +84,7 @@
         "x": 36,
         "y": -15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        450,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 450, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -134,14 +106,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -163,14 +128,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -192,14 +150,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -221,14 +172,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -250,14 +194,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -279,14 +216,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -308,14 +238,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -337,14 +260,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -366,14 +282,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -395,14 +304,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -424,14 +326,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -453,14 +348,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -482,14 +370,7 @@
         "x": 40.5,
         "y": 11.124297730643494
       },
-      "cordPixels": [
-        520,
-        300,
-        565,
-        188.75702269356506,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
       "scale": 10,
       "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
       "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
@@ -511,14 +392,7 @@
         "x": 39,
         "y": 12.649110640673518
       },
-      "cordPixels": [
-        520,
-        300,
-        550,
-        173.50889359326482,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
       "scale": 10,
       "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -540,14 +414,7 @@
         "x": 45,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        610,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 610, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -569,14 +436,7 @@
         "x": -9,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        70,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 70, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -598,14 +458,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -627,14 +480,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -656,14 +502,7 @@
         "x": 36,
         "y": 15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        150,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 150, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -685,14 +524,7 @@
         "x": 36,
         "y": -15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        450,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 450, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -714,14 +546,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -743,14 +568,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -772,14 +590,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -801,14 +612,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -830,14 +634,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -859,14 +656,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -888,14 +678,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -917,14 +700,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -946,14 +722,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -975,14 +744,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1004,14 +766,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1033,14 +788,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1062,14 +810,7 @@
         "x": 40.5,
         "y": 11.124297730643494
       },
-      "cordPixels": [
-        520,
-        300,
-        565,
-        188.75702269356506,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
       "scale": 10,
       "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
       "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
@@ -1091,14 +832,7 @@
         "x": 39,
         "y": 12.649110640673518
       },
-      "cordPixels": [
-        520,
-        300,
-        550,
-        173.50889359326482,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
       "scale": 10,
       "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1120,14 +854,7 @@
         "x": 45,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        610,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 610, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1149,14 +876,7 @@
         "x": -9,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        70,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 70, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1178,14 +898,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1207,14 +920,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1236,14 +942,7 @@
         "x": 36,
         "y": 15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        150,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 150, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1265,14 +964,7 @@
         "x": 36,
         "y": -15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        450,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 450, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1294,14 +986,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1323,14 +1008,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1352,14 +1030,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1381,14 +1052,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1410,14 +1074,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1439,14 +1096,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1468,14 +1118,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1497,14 +1140,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1526,14 +1162,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1555,14 +1184,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1584,14 +1206,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1613,14 +1228,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1642,14 +1250,7 @@
         "x": 40.5,
         "y": 11.124297730643494
       },
-      "cordPixels": [
-        520,
-        300,
-        565,
-        188.75702269356506,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
       "scale": 10,
       "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
       "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
@@ -1671,14 +1272,7 @@
         "x": 39,
         "y": 12.649110640673518
       },
-      "cordPixels": [
-        520,
-        300,
-        550,
-        173.50889359326482,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
       "scale": 10,
       "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1700,14 +1294,7 @@
         "x": 45,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        610,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 610, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1729,14 +1316,7 @@
         "x": -9,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        70,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 70, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -1758,14 +1338,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1787,14 +1360,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1816,14 +1382,7 @@
         "x": 36,
         "y": 15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        150,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 150, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1845,14 +1404,7 @@
         "x": 36,
         "y": -15
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        450,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 450, 160, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1874,14 +1426,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1903,14 +1448,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        360,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 360, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1932,14 +1470,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1961,14 +1492,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        360,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 360, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -1990,14 +1514,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2019,14 +1536,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        520,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 520, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2048,14 +1558,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2077,14 +1580,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        470,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 470, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2106,14 +1602,7 @@
         "x": 0,
         "y": 15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        150,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 150, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, 15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "0 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2135,14 +1624,7 @@
         "x": 0,
         "y": -15
       },
-      "cordPixels": [
-        160,
-        300,
-        160,
-        450,
-        240,
-        300
-      ],
+      "cordPixels": [160, 300, 160, 450, 240, 300],
       "scale": 10,
       "pegCopy": "Position (0, -15). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "1 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2164,14 +1646,7 @@
         "x": 36,
         "y": 12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        180,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 180, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, 12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "2 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2193,14 +1668,7 @@
         "x": 36,
         "y": -12
       },
-      "cordPixels": [
-        520,
-        300,
-        520,
-        420,
-        170,
-        300
-      ],
+      "cordPixels": [520, 300, 520, 420, 170, 300],
       "scale": 10,
       "pegCopy": "Position (36, -12). Along-line offset 0; northward offset 0. Grip-to-baseline angle: 90°.",
       "groundCopy": "3 of four pegs placed. Place all four to measure the resulting boundary."
@@ -2222,14 +1690,7 @@
         "x": 40.5,
         "y": 11.124297730643494
       },
-      "cordPixels": [
-        520,
-        300,
-        565,
-        188.75702269356506,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 565, 188.75702269356506, 160, 300],
       "scale": 10,
       "pegCopy": "Position (40.5, 11.124298). Along-line offset +4.5; northward offset -0.875702. Grip-to-baseline angle: 112.024313°.",
       "groundCopy": "Enclosed area: 972 square source units, 0% against the prescribed 972. West width 30; east width 24."
@@ -2251,14 +1712,7 @@
         "x": 39,
         "y": 12.649110640673518
       },
-      "cordPixels": [
-        520,
-        300,
-        550,
-        173.50889359326482,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 550, 173.50889359326482, 160, 300],
       "scale": 10,
       "pegCopy": "Position (39, 12.649111). Along-line offset +3; northward offset +0.649111. Grip-to-baseline angle: 103.342364°.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -2280,14 +1734,7 @@
         "x": 45,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        610,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 610, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (45, 0). Along-line offset +9; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."
@@ -2309,14 +1756,7 @@
         "x": -9,
         "y": 0
       },
-      "cordPixels": [
-        520,
-        300,
-        70,
-        300,
-        160,
-        300
-      ],
+      "cordPixels": [520, 300, 70, 300, 160, 300],
       "scale": 10,
       "pegCopy": "Position (-9, 0). Along-line offset -45; northward offset -12. Grip-to-baseline angle: collinear; no right angle.",
       "groundCopy": "Enclosed area: 1,080 square source units, +11.111111% against the prescribed 972. West width 30; east width 30."

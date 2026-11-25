@@ -116,7 +116,8 @@ No older published Rajju edition exists in this review.
 - [Circle reading HTML](../examples/circle-reading.html.gz): actual native download,
   all nine page images, source-language excerpts, measurements, fonts and licenses.
 - [Circle reading PDF](../examples/circle-reading.pdf): actual Chromium A4 print,
-  15 pages, including each complete source page.
+  16 pages since the 2026-11-25 regeneration (15 before), including each
+  complete source page.
 - [Circle CSV](../examples/circle-measurements.csv) and
   [diagonal CSV](../examples/diagonal-measurements.csv): actual native downloads.
 

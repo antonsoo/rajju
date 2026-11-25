@@ -7,12 +7,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -27,14 +22,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -84,12 +72,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -161,12 +144,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -238,12 +216,7 @@
       "corner": "wn",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -315,12 +288,7 @@
       "corner": "wn",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -392,12 +360,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -469,12 +432,7 @@
       "corner": "wn",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -546,12 +504,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -566,14 +519,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -623,12 +569,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -700,12 +641,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -777,12 +713,7 @@
       "corner": "ws",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -854,12 +785,7 @@
       "corner": "ws",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -931,12 +857,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1008,12 +929,7 @@
       "corner": "ws",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1085,12 +1001,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1105,25 +1016,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -1162,12 +1059,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1229,7 +1121,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": -4.599029404769886e-05
+          "dy": -4.599029404769886e-5
         }
       }
     },
@@ -1239,12 +1131,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1316,12 +1203,7 @@
       "corner": "en",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1387,12 +1269,7 @@
       "corner": "en",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1464,12 +1341,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1541,12 +1413,7 @@
       "corner": "en",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1608,7 +1475,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": -6.008009512112817e-06
+          "dy": -6.008009512112817e-6
         }
       }
     },
@@ -1618,12 +1485,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1638,25 +1500,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -1695,12 +1543,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1762,7 +1605,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": 4.599029404769886e-05
+          "dy": 4.599029404769886e-5
         }
       }
     },
@@ -1772,12 +1615,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1849,12 +1687,7 @@
       "corner": "es",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1920,12 +1753,7 @@
       "corner": "es",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -1997,12 +1825,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2074,12 +1897,7 @@
       "corner": "es",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2141,7 +1959,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": 6.008009512112817e-06
+          "dy": 6.008009512112817e-6
         }
       }
     },
@@ -2151,12 +1969,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2171,14 +1984,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -2228,12 +2034,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2305,12 +2106,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2382,12 +2178,7 @@
       "corner": "wn",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2459,12 +2250,7 @@
       "corner": "wn",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2536,12 +2322,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2613,12 +2394,7 @@
       "corner": "wn",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2690,12 +2466,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2710,14 +2481,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -2767,12 +2531,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2844,12 +2603,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2921,12 +2675,7 @@
       "corner": "ws",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -2998,12 +2747,7 @@
       "corner": "ws",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3075,12 +2819,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3152,12 +2891,7 @@
       "corner": "ws",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3229,12 +2963,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3249,25 +2978,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -3306,12 +3021,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3373,7 +3083,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": -4.599029404769886e-05
+          "dy": -4.599029404769886e-5
         }
       }
     },
@@ -3383,12 +3093,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3460,12 +3165,7 @@
       "corner": "en",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3531,12 +3231,7 @@
       "corner": "en",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3608,12 +3303,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3685,12 +3375,7 @@
       "corner": "en",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3752,7 +3437,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": -6.008009512112817e-06
+          "dy": -6.008009512112817e-6
         }
       }
     },
@@ -3762,12 +3447,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3782,25 +3462,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -3839,12 +3505,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3906,7 +3567,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": 4.599029404769886e-05
+          "dy": 4.599029404769886e-5
         }
       }
     },
@@ -3916,12 +3577,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -3993,12 +3649,7 @@
       "corner": "es",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4064,12 +3715,7 @@
       "corner": "es",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4141,12 +3787,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4218,12 +3859,7 @@
       "corner": "es",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4285,7 +3921,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": 6.008009512112817e-06
+          "dy": 6.008009512112817e-6
         }
       }
     },
@@ -4295,12 +3931,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4315,14 +3946,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -4372,12 +3996,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4449,12 +4068,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4526,12 +4140,7 @@
       "corner": "wn",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4603,12 +4212,7 @@
       "corner": "wn",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4680,12 +4284,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4757,12 +4356,7 @@
       "corner": "wn",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4834,12 +4428,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4854,14 +4443,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -4911,12 +4493,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -4988,12 +4565,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5065,12 +4637,7 @@
       "corner": "ws",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5142,12 +4709,7 @@
       "corner": "ws",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5219,12 +4781,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5296,12 +4853,7 @@
       "corner": "ws",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5373,12 +4925,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5393,25 +4940,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -5450,12 +4983,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5517,7 +5045,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": -4.599029404769886e-05
+          "dy": -4.599029404769886e-5
         }
       }
     },
@@ -5527,12 +5055,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5604,12 +5127,7 @@
       "corner": "en",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5675,12 +5193,7 @@
       "corner": "en",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5752,12 +5265,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5829,12 +5337,7 @@
       "corner": "en",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5896,7 +5399,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": -6.008009512112817e-06
+          "dy": -6.008009512112817e-6
         }
       }
     },
@@ -5906,12 +5409,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -5926,25 +5424,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -5983,12 +5467,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6050,7 +5529,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": 4.599029404769886e-05
+          "dy": 4.599029404769886e-5
         }
       }
     },
@@ -6060,12 +5539,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6137,12 +5611,7 @@
       "corner": "es",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6208,12 +5677,7 @@
       "corner": "es",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6285,12 +5749,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6362,12 +5821,7 @@
       "corner": "es",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6429,7 +5883,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": 6.008009512112817e-06
+          "dy": 6.008009512112817e-6
         }
       }
     },
@@ -6439,12 +5893,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6459,14 +5908,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -6516,12 +5958,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6593,12 +6030,7 @@
       "corner": "wn",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6670,12 +6102,7 @@
       "corner": "wn",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6747,12 +6174,7 @@
       "corner": "wn",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6824,12 +6246,7 @@
       "corner": "wn",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6901,12 +6318,7 @@
       "corner": "wn",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6978,12 +6390,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -6998,14 +6405,7 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "20",
-            "15 + 2515 + 25",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "20", "15 + 2515 + 25", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
@@ -7055,12 +6455,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7132,12 +6527,7 @@
       "corner": "ws",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7209,12 +6599,7 @@
       "corner": "ws",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7286,12 +6671,7 @@
       "corner": "ws",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7363,12 +6743,7 @@
       "corner": "ws",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7440,12 +6815,7 @@
       "corner": "ws",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7517,12 +6887,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7537,25 +6902,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -7594,12 +6945,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7661,7 +7007,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": -4.599029404769886e-05
+          "dy": -4.599029404769886e-5
         }
       }
     },
@@ -7671,12 +7017,7 @@
       "corner": "en",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7748,12 +7089,7 @@
       "corner": "en",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7819,12 +7155,7 @@
       "corner": "en",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7896,12 +7227,7 @@
       "corner": "en",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -7973,12 +7299,7 @@
       "corner": "en",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8040,7 +7361,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": -6.008009512112817e-06
+          "dy": -6.008009512112817e-6
         }
       }
     },
@@ -8050,12 +7371,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8070,25 +7386,11 @@
         },
         {
           "method": "345",
-          "cells": [
-            "2. 3–4–5, enlargedStake the grip",
-            "16",
-            "12 + 2012 + 20",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["2. 3–4–5, enlargedStake the grip", "16", "12 + 2012 + 20", "0, 0", "0", "90°"]
         },
         {
           "method": "51213",
-          "cells": [
-            "3. 5–12–13, enlargedStake the grip",
-            "5",
-            "12 + 1312 + 13",
-            "0, 0",
-            "0",
-            "90°"
-          ]
+          "cells": ["3. 5–12–13, enlargedStake the grip", "5", "12 + 1312 + 13", "0, 0", "0", "90°"]
         },
         {
           "method": "81517",
@@ -8127,12 +7429,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": 0,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8194,7 +7491,7 @@
         },
         "one": {
           "dx": -0.03322295805739371,
-          "dy": 4.599029404769886e-05
+          "dy": 4.599029404769886e-5
         }
       }
     },
@@ -8204,12 +7501,7 @@
       "corner": "es",
       "nearError": 10,
       "farError": -10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8281,12 +7573,7 @@
       "corner": "es",
       "nearError": -300,
       "farError": 300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8352,12 +7639,7 @@
       "corner": "es",
       "nearError": 300,
       "farError": -300,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8429,12 +7711,7 @@
       "corner": "es",
       "nearError": 0,
       "farError": 10,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8506,12 +7783,7 @@
       "corner": "es",
       "nearError": -1,
       "farError": 1,
-      "methods": [
-        "one",
-        "345",
-        "51213",
-        "81517"
-      ],
+      "methods": ["one", "345", "51213", "81517"],
       "rows": [
         {
           "method": "one",
@@ -8573,7 +7845,7 @@
         },
         "one": {
           "dx": 0.012008005336895167,
-          "dy": 6.008009512112817e-06
+          "dy": 6.008009512112817e-6
         }
       }
     }

@@ -22,11 +22,19 @@ offline reload all completed. Hosted offline checks disable browser networking;
 the earlier local checks additionally closed the origin's sockets.
 
 The example [compressed reading](../examples/circle-reading.html.gz) and
-[15-page PDF](../examples/circle-reading.pdf) were refreshed from the actual
+[PDF](../examples/circle-reading.pdf) were refreshed from the actual
 public-browser download. Decompress the HTML before opening it. Its nine page
 images were checked against the original bundled JPEG bytes, and it opens
 without runtime HTTP requests. Its construction link now names the canonical
 public workshop.
+
+On 2026-11-25 both retained readings (circle and field, HTML and PDF) were
+downloaded again from the public site by `scripts/browser-review.mjs` and
+`scripts/field-review.mjs` with the public base, at source commit `fcb2af6`,
+for the author-name and license change. They now credit Anthony Mercer under
+PolyForm Noncommercial and embed its terms and the current edition. The field
+reading also carries the cord-error study added since October. The PDFs have 16
+and 10 pages. The measurement CSVs beside them are the October downloads.
 
 Before first publication, generic temporary paths replaced machine-specific
 review paths in the unpublished history, and the large saved HTML was archived
