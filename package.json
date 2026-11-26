@@ -1,5 +1,5 @@
 {
-  "name": "@antonsoloviev/rajju",
+  "name": "@anthonymercer/rajju",
   "version": "0.2.0",
   "private": true,
   "description": "Read Indian cord geometry: circle and return, exact diagonal fractions, and a ground laid out with a marked cord.",
